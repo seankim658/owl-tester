@@ -1,0 +1,846 @@
+CLASS: obo.OBCI_0000001
+	LABEL: biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000001
+	ANNOTATION(S):
+		Annotation #1: Molecular, histologic, radiographic, or physiologic characteristics are types of biomarkers. A biomarker is not an assessment of how an individual feels, functions, or survives.
+
+CLASS: obo.OBCI_0000002
+	LABEL: diagnostic biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000002
+	ANNOTATION(S):
+		Annotation #1: For a perfect diagnostic biomarker test, all patients with the disease or disease subset would be detected (100% sensitivity, i.e., the fraction of people with disease who test positive) and no patients without the disease would be diagnosed with the disease (100% specificity, i.e., the fraction of people without the disease who test negative). In practice no biomarker test has perfect clinical and analytical sensitivity and specificity. [NCBI:books/NBK402285]
+		Annotation #2: Per CIVic, such biomarkers can help a clinician diagnose or exclude a particular disease.
+
+CLASS: obo.OBCI_0000003
+	LABEL: monitoring biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000003
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000004
+	LABEL: pharmacodynamic/response biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000004
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000005
+	LABEL: predictive biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000005
+	ANNOTATION(S):
+		Annotation #1: Per CIVic, such biomarkers help predict drug sensitivity or therapeutic response and are valuable in deciding further treatments. Predictive evidence items often explain mechanisms of drug resistance.
+
+CLASS: obo.OBCI_0000006
+	LABEL: prognostic biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000006
+	ANNOTATION(S):
+		Annotation #1: Per CIVic, such biomarkers are those that predict survival outcome.
+
+CLASS: obo.OBCI_0000007
+	LABEL: safety biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000007
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000008
+	LABEL: susceptibility/risk biomarker
+	PARENT: obo.OBCI_0000016
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000008
+	ANNOTATION(S):
+		Annotation #1: Per CIVic, such biomarkers are those that indicate an increased likelihood of developing a particular disease.
+
+CLASS: obo.OBCI_0000009
+	LABEL: biomarker of disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000009
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000010
+	LABEL: biomarker of COVID-19
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000010
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000011
+	LABEL: biomarker of cancer
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000011
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000012
+	LABEL: biomarker of exposure
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000012
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000013
+	LABEL: urine biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000013
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000014
+	LABEL: blood plasma biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000014
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000015
+	LABEL: biomarker of medical condition
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000015
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000016
+	LABEL: biomarker organized by BEST category
+	PARENT: obo.OBCI_0000001
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000016
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000017
+	LABEL: biomarker organized by assessed entity
+	PARENT: obo.OBCI_0000001
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000017
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000018
+	LABEL: biomarker organized by clinical focus
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000018
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000019
+	LABEL: biomarker organized by specimen source
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000019
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000020
+	LABEL: physiological characteristic biomarker
+	PARENT: obo.OBCI_0000017
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000020
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000021
+	LABEL: cellular biomarker
+	PARENT: obo.OBCI_0000017
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000021
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000022
+	LABEL: genetic variation biomarker
+	PARENT: obo.OBCI_0000034
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000022
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000023
+	LABEL: glycan biomarker
+	PARENT: obo.OBCI_0000034
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000023
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000024
+	LABEL: small molecule biomarker
+	PARENT: obo.OBCI_0000034
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000024
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000025
+	LABEL: transcript biomarker
+	PARENT: obo.OBCI_0000034
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000025
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000026
+	LABEL: exhaled breath biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000026
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000027
+	LABEL: propanol in exhaled breath above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000027
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000028
+	LABEL: ethyl butanoate in exhaled breath above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000028
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000029
+	LABEL: blood biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000029
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000030
+	LABEL: potassium in blood plasma below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000030
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000031
+	LABEL: sodium in blood below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000031
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000032
+	LABEL: protein biomarker
+	PARENT: obo.OBCI_0000034
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000032
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000033
+	LABEL: fibrinogen-to-albumin ratio in blood above normal
+	PARENT: obo.OBCI_0000032
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000033
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000034
+	LABEL: molecular biomarker
+	PARENT: obo.OBCI_0000017
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000034
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000035
+	LABEL: monitoring biomarker - clinical condition
+	PARENT: obo.OBCI_0000003
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000035
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000036
+	LABEL: monitoring biomarker - exposure
+	PARENT: obo.OBCI_0000003
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000036
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000037
+	LABEL: condition of clinical interest
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000037
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000038
+	LABEL: presence of ANGPT2 polymorphism rs12674822
+	PARENT: obo.OBCI_0000022
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000038
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000039
+	LABEL: cerebrospinal fluid biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000039
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000040
+	LABEL: potassium in urine below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000040
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000041
+	LABEL: biomarker of respiratory system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000041
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000042
+	LABEL: biomarker of cognitive disorder
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000042
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000043
+	LABEL: biomarker of disease by infectious agent
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000043
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000044
+	LABEL: biomarker of disease of anatomical entity
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000044
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000045
+	LABEL: biomarker of cardiovascular system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000045
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000046
+	LABEL: biomarker of endocrine system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000046
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000047
+	LABEL: biomarker of gastrointestinal system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000047
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000048
+	LABEL: biomarker of hematopoietic system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000048
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000049
+	LABEL: biomarker of immune system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000049
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000050
+	LABEL: biomarker of integumentary system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000050
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000051
+	LABEL: biomarker of musculoskeletal system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000051
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000052
+	LABEL: biomarker of nervous system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000052
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000053
+	LABEL: biomarker of reproductive system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000053
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000054
+	LABEL: biomarker of thoracic disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000054
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000055
+	LABEL: biomarker of urinary system disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000055
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000056
+	LABEL: biomarker of disease of cellular proliferation
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000056
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000057
+	LABEL: biomarker of disease of metabolism
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000057
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000058
+	LABEL: biomarker of genetic disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000058
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000059
+	LABEL: saliva biomarker
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000059
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000060
+	LABEL: neutrophil-to-lymphocyte ratio in blood above normal
+	PARENT: obo.OBCI_0000021
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000060
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000061
+	LABEL: neuron-specific enolase in blood above normal
+	PARENT: obo.OBCI_0000032
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000061
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000062
+	LABEL: soluble urokinase plasminogen activator receptor in blood above normal
+	PARENT: obo.OBCI_0000032
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000062
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000063
+	LABEL: biomarker of phenotypic abnormality
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000063
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000065
+	LABEL: exposure agent
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000065
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000066
+	LABEL: voice biomarker
+	PARENT: obo.OBCI_0000020
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000066
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000067
+	LABEL: biomarker of lysinuric protein intolerance
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000067
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000068
+	LABEL: biomarker of sepiapterin reductase deficiency
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000068
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000069
+	LABEL: biomarker of celiac disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000069
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000070
+	LABEL: biomarker of nephrotic syndrome
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000070
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000071
+	LABEL: biomarker of malaria
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000071
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000072
+	LABEL: biomarker of lung cancer
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000072
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000073
+	LABEL: biomarker of porphyria
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000073
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000074
+	LABEL: biomarker of hepatic encephalopathy
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000074
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000075
+	LABEL: biomarker of hypothyroidism
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000075
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000076
+	LABEL: biomarker of cystic fibrosis
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000076
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000077
+	LABEL: biomarker of epilepsy
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000077
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000078
+	LABEL: biomarker of motor neuron disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000078
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000079
+	LABEL: biomarker of asthma
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000079
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000080
+	LABEL: biomarker of pulmonary tuberculosis
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000080
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000081
+	LABEL: biomarker of mastocytosis
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000081
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000082
+	LABEL: biomarker of liver disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000082
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000083
+	LABEL: biomarker of uremia
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000083
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000084
+	LABEL: biomarker of human immunodeficiency virus infectious disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000084
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000085
+	LABEL: biomarker of prolactinoma
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000085
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000086
+	LABEL: biomarker of schizophrenia
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000086
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000087
+	LABEL: biomarker of rheumatoid arthritis
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000087
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000088
+	LABEL: biomarker of chronic kidney disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000088
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000089
+	LABEL: biomarker of hyperthyroidism
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000089
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000090
+	LABEL: biomarker of autosomal dominant polycystic kidney disease
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000090
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000091
+	LABEL: biomarker of colorectal cancer
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000091
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000092
+	LABEL: biomarker of meningitis
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000092
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000093
+	LABEL: L-alanine in cerebrospinal fluid below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000093
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000094
+	LABEL: 4-hydroxynonenal in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000094
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000095
+	LABEL: 4-heptanone in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000095
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000096
+	LABEL: D-pipecolic acid in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000096
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000097
+	LABEL: hexanal in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000097
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000098
+	LABEL: malonaldehyde in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000098
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000099
+	LABEL: phenylacetic acid in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000099
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000100
+	LABEL: phenol in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000100
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000101
+	LABEL: sepiapterin in cerebrospinal fluid above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000101
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000102
+	LABEL: porphobilinogen in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000102
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000103
+	LABEL: porphobilinogen in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000103
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000104
+	LABEL: glucitol in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000104
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000105
+	LABEL: allantoin in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000105
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000106
+	LABEL: allantoin in cerebrospinal fluid above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000106
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000107
+	LABEL: 6,7-dihydrobiopterin in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000107
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000108
+	LABEL: L-arginine in blood below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000108
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000109
+	LABEL: ascorbic acid in cerebrospinal fluid below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000109
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000110
+	LABEL: lactulose in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000110
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000111
+	LABEL: lithocholic acid in blood below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000111
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000112
+	LABEL: mannitol in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000112
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000113
+	LABEL: creatine in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000113
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000114
+	LABEL: 1,7-dimethyluric acid in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000114
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000115
+	LABEL: N(tele)-methylhistamine in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000115
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000116
+	LABEL: trimethylamine N-oxide in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000116
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000117
+	LABEL: ursodeoxycholic acid in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000117
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000118
+	LABEL: 2-methoxyestrone in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000118
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000119
+	LABEL: 25-hydroxyvitamin D2 in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000119
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000120
+	LABEL: thiocyanate in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000120
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000121
+	LABEL: 1-methylguanosine in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000121
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000122
+	LABEL: p-cresol in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000122
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000123
+	LABEL: gamma-aminobutyric acid in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000123
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000124
+	LABEL: theophylline in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000124
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000125
+	LABEL: 3-nitrotyrosine in cerebrospinal fluid above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000125
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000126
+	LABEL: vasopressin in cerebrospinal fluid above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000126
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000127
+	LABEL: glycocholic acid in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000127
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000128
+	LABEL: 1-methylinosine in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000128
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000129
+	LABEL: thyroxine sulfate in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000129
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000130
+	LABEL: 1-methyl-4-imidazoleacetic acid in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000130
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000131
+	LABEL: theobromine in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000131
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000132
+	LABEL: methanethiol in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000132
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000133
+	LABEL: D-serine in urine below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000133
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000134
+	LABEL: 4-guanidinobutanoic acid in blood above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000134
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000135
+	LABEL: 3,5-diiodo-L-tyrosine in urine above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000135
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000136
+	LABEL: calcidiol in urine below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000136
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000137
+	LABEL: heptan-2-one in cerebrospinal fluid above normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000137
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_0000138
+	LABEL: anandamide in cerebrospinal fluid below normal
+	PARENT: obo.OBCI_0000024
+	IRI: http://purl.obolibrary.org/obo/OBCI_0000138
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_3000004
+	LABEL: neutrophil-to-lymphocyte ratio
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_3000004
+	ANNOTATION(S):
+
+CLASS: obo.OBCI_3000005
+	LABEL: fibrinogen-to-albumin ratio
+	PARENT: owl.Thing
+	IRI: http://purl.obolibrary.org/obo/OBCI_3000005
+	ANNOTATION(S):
+
+CLASS: snp.rs12674822
+	LABEL: ANGPT2 polymorphism rs12674822
+	PARENT: owl.Thing
+	IRI: https://www.ncbi.nlm.nih.gov/snp/rs12674822
+	ANNOTATION(S):
+
