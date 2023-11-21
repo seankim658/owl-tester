@@ -75,7 +75,10 @@ In terms of RDF triples, classes can represent either subjects or objects:
 
 In the context of ontologies, a "property" is a fundamental concept used to describe attributes of classes or the relationships between classes (or instances of classes). Properties in ontologies serve as a means to provide more detail about the concepts being modeled and are key to expressing the semantics of the domain.
 
-- **Domain and Range**: Each property has a domain and a range. The domain indicates the class or classes of instances that the property can be applied to, and the range specifies the class of instances or type of data values that the property can link to.
+- **Domain and Range**: Each property has a domain and a range. The domain indicates the class or classes of instances that the property can be applied to, and the range specifies the class of instances or type of data values that the property can link to. In summary:
+
+    - **Domain**: Indicates the class or classes of the subject in a statement. 
+    - **Range**: Indicates the class or classes of the object in a statement. 
 
 - **Characteristics**: Properties can have various characteristics. For example, a **functional** property is one where each instance of the domain can be associated with at most one instance in the range. An **inverse** property is one where if A is related to B, then B is inversely related to A.
 
