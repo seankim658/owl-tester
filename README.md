@@ -7,6 +7,10 @@ Simple repository for exploring ontology owl files.
 - [RDF Triples and Ontologies](#rdf-triples-and-ontologies)
 - [Ontology Componenets](#ontology-components)
     - [Class](#class)
+        - [Classes in RDF Triples](#classes-in-rdf-triples)
+    - [Property](#property)
+        - [Types of Properties](#types-of-properties)
+        - [Properties in RDF Triples](#properties-in-rdf-triples)
 - [Supplementary Glossary](#supplementary-glossary)
 
 ### RDF Triples and Ontologies
@@ -57,7 +61,33 @@ Remember to replace `http://example.org/your_ontology#YourClass` and `http://exa
 
 **Instances**: An instance (or individual) in an ontology is a specific example of a class. For instance, in an ontology where 'Car' is a class, a specific car like 'My Honda Civic' would be an instance of the 'Car' class.
 
-**Semantic Web and RDF**: In the Semantic Web, classes are often defined using RDF Schema (RDFS) or Web Ontology Language (OWL), which provide frameworks for describing classes and their relationships in a machine-readable format. In terms of RDF triples, classes can represent either subjects or objects. 
+#### Classes in RDF Triples
+
+In terms of RDF triples, classes can represent either subjects or objects: 
+
+- **Classes as Subjects**: When a class functions as a subject in an RDF triple, it usually denotes that the triple is making a statement about the class itself. For example, in a triple like (Animal, hasCharacteristic, Multicellular), the class 'Animal' is the subject, and the triple asserts that a characteristic of the 'Animal' class is being multicellular.
+
+- **Classes as Objects**: Classes can also be objects in RDF triples. This typically happens when the triple is defining a relationship between two classes or when a property of one class relates to another class. For example, in the triple (Dog, isSubclassOf, Animal), the class 'Animal' is the object, and the triple indicates that 'Dog' is a subclass of the 'Animal' class.
+
+- **Instances of Classes**: Besides representing classes themselves, RDF triples often involve instances (or individuals) of those classes. For example, in a triple like (Fido, type, Dog), 'Fido' is an instance of the class 'Dog'. Here, 'Dog' is the object of the triple, and it denotes the class to which the subject (Fido) belongs.
+
+### Property
+
+In the context of ontologies, a "property" is a fundamental concept used to describe attributes of classes or the relationships between classes (or instances of classes). Properties in ontologies serve as a means to provide more detail about the concepts being modeled and are key to expressing the semantics of the domain.
+
+- **Domain and Range**: Each property has a domain and a range. The domain indicates the class or classes of instances that the property can be applied to, and the range specifies the class of instances or type of data values that the property can link to.
+
+- **Characteristics**: Properties can have various characteristics. For example, a **functional** property is one where each instance of the domain can be associated with at most one instance in the range. An **inverse** property is one where if A is related to B, then B is inversely related to A.
+
+#### Types of Properties
+
+1. **Object Properties**: These properties link an instance of one class to an instance of another class. For example, in a biological ontology, an object property might link an 'Animal' instance to its 'Habitat'.
+
+2. **Data Properties**: These properties link instances of classes to data values. For example, in a real estate ontology, a data property might link a 'House' instance to its 'NumberOfRooms' which is an integer.
+
+#### Properties in RDF Triples
+
+In the context of RDF triples, properties correspond specifically to predicates. 
 
 ### Supplementary Glossary 
 
