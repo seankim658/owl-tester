@@ -2,6 +2,8 @@
 
 Simple repository for exploring ontology owl files. 
 
+*Note* - This repository was oringally using the [owlready2](https://github.com/pwin/owlready2) python module. However, at the moment (last tag v0.20), the library seems unstable and no longer supported. Specifically, the loading function has some undefined behaviour and does not work properly (see [issue](https://github.com/pwin/owlready2/issues/23)). 
+
 ## Supplemental Information 
 
 - [RDF Triples and Ontologies](#rdf-triples-and-ontologies)
