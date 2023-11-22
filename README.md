@@ -11,6 +11,7 @@ Simple repository for exploring ontology owl files.
     - [Property](#property)
         - [Types of Properties](#types-of-properties)
         - [Properties in RDF Triples](#properties-in-rdf-triples)
+    - [Instances](#instances)
 - [Supplementary Glossary](#supplementary-glossary)
 
 ### RDF Triples and Ontologies
@@ -51,17 +52,13 @@ Remember to replace `http://example.org/your_ontology#YourClass` and `http://exa
 
 #### Class
 
-**Background and Definition**: In the context of ontologies, a **class** is a fundamental concept that plays a crucial role in structuring and defining the knowledge domain represented by the ontology. The definition of a class is a category or group of things that share common characteristics. It represents a concept or a type of object within the domain of the ontology.
+In the context of ontologies, a **class** is a fundamental concept that plays a crucial role in structuring and defining the knowledge domain represented by the ontology. The definition of a class is a category or group of things that share common characteristics. It represents a concept or a type of object within the domain of the ontology.
 
 **Organization**: Classes are often organized hierarchically. A more general class can have more specific subclasses. This hierarchical organization allows for the creation of a taxonomy within the ontology, where broader concepts encompass more specific ones.
 
 **Example**: Consider an ontology about living organisms. In this ontology, 'Mammal' might be a class. Under this class, there can be subclasses like 'Primate', 'Carnivore', etc. Further, under 'Primate', there could be classes like 'Human', 'Chimpanzee', etc. Each of these classes represents a concept with specific characteristics that define members of that class.
 
-**Properties and Relationships**: Classes can have properties (also known as attributes) that describe the characteristics of the class. For instance, the class 'Bird' might have properties like 'has wings' or 'can fly'. Classes are also involved in relationships with other classes, which describe how instances of one class relate to instances of another class.
-
-**Instances**: An instance (or individual) in an ontology is a specific example of a class. For instance, in an ontology where 'Car' is a class, a specific car like 'My Honda Civic' would be an instance of the 'Car' class.
-
-#### Classes in RDF Triples
+##### Classes in RDF Triples
 
 In terms of RDF triples, classes can represent either subjects or objects: 
 
@@ -80,17 +77,31 @@ In the context of ontologies, a "property" is a fundamental concept used to desc
     - **Domain**: Indicates the class or classes of the subject in a statement. 
     - **Range**: Indicates the class or classes of the object in a statement. 
 
-- **Characteristics**: Properties can have various characteristics. For example, a **functional** property is one where each instance of the domain can be associated with at most one instance in the range. An **inverse** property is one where if A is related to B, then B is inversely related to A.
+- **Characteristics**: Properties can have various characteristics. For example:
+
+    - **Functional**: A property is functional if, for any given individual, the property can have at most one value. In other words there is at most one instance in the range that the property can point to (relates to both object and data properties). 
+    - **Inverse Functional**: A property is inverse functional if for each instance of the range, there is at most one instance of the domain that the property can point to (only relates to object properties). 
+    - **Transitive**: A property is transitive if, whenever an individual A is related to B, and B is related to individual C, then A is also related to C (only relates to object properties). In other words, a single "hop" is implied over a chain of two along a given property is that property is transitive.
+    - **Symmetric**: A property is symmetric if the relationship works both ways (only relates to object properties).
+    - **Asymmetric**: A property is asymmetric if it never works both ways (only relates to object properties).
+    - **Reflexive**: A property is reflexive if every instance of the domain is related to itself (only relates to object properties).
+    - **irreflexive**: A property is irreflexive if no instance of the domain can be related to itself (only relates to object properties). 
 
 #### Types of Properties
 
 1. **Object Properties**: These properties link an instance of one class to an instance of another class. For example, in a biological ontology, an object property might link an 'Animal' instance to its 'Habitat'.
 
-2. **Data Properties**: These properties link instances of classes to data values. For example, in a real estate ontology, a data property might link a 'House' instance to its 'NumberOfRooms' which is an integer.
+2. **Data Properties**: These properties link instances of classes to literal data values. For example, in a real estate ontology, a data property might link a 'House' instance to its 'NumberOfRooms' which is an integer.
+
+3. **Annotation Properties**: These properties are used to associate additional information with entitities in an ontology, such as comments, descriptions, or references to external resources. Annotation properties are not used for reasoning purposes and are ignored by reasoners. 
 
 #### Properties in RDF Triples
 
 In the context of RDF triples, properties correspond specifically to predicates. 
+
+### Instances
+
+Instances (Individuals) are the concrete examples of the classes. If you created a biomarker ontology and wanted to include instances, you might include specific biomarker like "PSA level" as an instance of the "biomarker of cancer" class.
 
 ### Supplementary Glossary 
 
