@@ -1,6 +1,15 @@
 from owlready2 import *
 import csv
 
+def _get_output_type(output_path: str) -> str:
+    '''
+    '''
+    if output_path.endswith('.txt'):
+        return 'txt'
+    elif output_path.endswith('.csv'):
+        return 'csv'
+    else:
+        raise ValueError(f'Unsupported file type.')
 
 ### owlready2 based functions 
 
@@ -16,12 +25,7 @@ def or2_explore_classes(output_file: str, classes: list) -> None:
         List of the classes to parse from owlready2.
     '''
 
-    if output_file.endswith('.txt'):
-        output_type = 'txt'
-    elif output_file.endswith('.csv'):
-        output_type = 'csv'
-    else:
-        raise ValueError(f'Unsupported file type.')
+    output_type = _get_output_type(output_file)
 
     if output_type == 'txt':
         with open(output_file, 'w') as f:
@@ -59,12 +63,7 @@ def explore_properties(output_file: str, properties: list, property_type: str) -
         Whether the properties being parsed are object, data, or annotation properties or all properties (accepts 'object', 'data', 'annotation', 'all').
     '''
 
-    if output_file.endswith('.txt'):
-        output_type = 'txt'
-    elif output_file.endswith('.csv'):
-        output_type = 'csv'
-    else:
-        raise ValueError(f'Unsupported file type.')
+    output_type = _get_output_type(output_file)
 
     if output_type == 'txt':
         with open(output_file, 'w') as f:
@@ -87,3 +86,23 @@ def explore_properties(output_file: str, properties: list, property_type: str) -
                 writer.writerow([f'{property_type}_property', 'label', 'iri', 'domain', 'range', 'comment'])
             for property in properties:
                 writer.writerow([property, property.label, property.iri, property.domain, property.range, property.comment])
+
+def explore_individuals(output_file: str, individuals: list) -> None:
+    '''
+    '''
+
+    output_type = _get_output_type(output_file)
+
+    if output_type == 'txt':
+        with open(output_file, 'w') as f:
+            for individual in individuals:
+                f.write(f'INDIVIDUAL: {individual}\n\n')
+                f.write(f'\tNAME      {individual.name}\n')
+                f.write(f'\tLABEL:    {individual.label}\n')
+                f.write(f'\tIRI:      {individual.iri}\n\n')
+    elif output_type == 'csv':
+        with open(output_file, 'w', newline = '') as f:
+            writer = csv.writer(f)
+            writer.writerow(['individual', 'name', 'label', 'iri'])
+            for individual in individuals:
+                writer.writerow([individual, individual.name, individual.label, individual.iri])
