@@ -2,10 +2,9 @@
 
 Simple repository for exploring ontology owl files. 
 
-*Note* - This repository was oringally using the [owlready2](https://github.com/pwin/owlready2) python module. However, at the moment (last tag v0.20), the library seems unstable and no longer supported. Specifically, the loading function has some undefined behaviour and does not work properly (see [issue](https://github.com/pwin/owlready2/issues/23)). 
-
 ## Supplemental Information 
 
+- [Repo Requirements](#repo-requirements)
 - [RDF Triples and Ontologies](#rdf-triples-and-ontologies)
 - [Ontology Componenets](#ontology-components)
     - [Class](#class)
@@ -15,6 +14,12 @@ Simple repository for exploring ontology owl files.
         - [Properties in RDF Triples](#properties-in-rdf-triples)
     - [Instances](#instances)
 - [Supplementary Glossary](#supplementary-glossary)
+
+### Repo Requirements
+
+- [ontospy](https://github.com/lambdamusic/Ontospy)
+
+*Note* - This repository was oringally using the [owlready2](https://github.com/pwin/owlready2) python module. However, at the moment (last tag v0.20), the library seems unstable and no longer supported. Specifically, the loading function has some undefined behaviour and does not work properly (see [issue](https://github.com/pwin/owlready2/issues/23)). 
 
 ### RDF Triples and Ontologies
 
