@@ -1,0 +1,1210 @@
+CLASS #1: XMLSchema.int
+
+	NAME:           int
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.w3.org/2001/XMLSchema#int
+	STORID:         46
+	NAMESPACE:      http://www.w3.org/2001/XMLSchema#
+	ANNOTATIONS:
+
+CLASS #2: XMLSchema.boolean
+
+	NAME:           boolean
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.w3.org/2001/XMLSchema#boolean
+	STORID:         55
+	NAMESPACE:      http://www.w3.org/2001/XMLSchema#
+	ANNOTATIONS:
+
+CLASS #3: XMLSchema.float
+
+	NAME:           float
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.w3.org/2001/XMLSchema#float
+	STORID:         58
+	NAMESPACE:      http://www.w3.org/2001/XMLSchema#
+	ANNOTATIONS:
+
+CLASS #4: XMLSchema.string
+
+	NAME:           string
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.w3.org/2001/XMLSchema#string
+	STORID:         60
+	NAMESPACE:      http://www.w3.org/2001/XMLSchema#
+	ANNOTATIONS:
+
+CLASS #5: XMLSchema.token
+
+	NAME:           token
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.w3.org/2001/XMLSchema#token
+	STORID:         68
+	NAMESPACE:      http://www.w3.org/2001/XMLSchema#
+	ANNOTATIONS:
+
+CLASS #6: XMLSchema.date
+
+	NAME:           date
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.w3.org/2001/XMLSchema#date
+	STORID:         75
+	NAMESPACE:      http://www.w3.org/2001/XMLSchema#
+	ANNOTATIONS:
+
+CLASS #7: ontology.Glycoprotein
+
+	NAME:           Glycoprotein
+	LABEL:          ['']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Glycoprotein
+	STORID:         19054
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #8: ontology.Pathway_Annotation
+
+	NAME:           Pathway_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Pathway_Annotation
+	STORID:         19055
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #9: core.Propeptide_Annotation
+
+	NAME:           Propeptide_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Propeptide_Annotation
+	STORID:         19056
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #10: core.SELDI
+
+	NAME:           SELDI
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/SELDI
+	STORID:         19057
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #11: core.Journal_Citation
+
+	NAME:           Journal_Citation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Journal_Citation
+	STORID:         19058
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #12: core.NMR_Spectroscopy
+
+	NAME:           NMR_Spectroscopy
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/NMR_Spectroscopy
+	STORID:         19059
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #13: core.Pathway_Annotation
+
+	NAME:           Pathway_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Pathway_Annotation
+	STORID:         19060
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #14: glycan.Image
+
+	NAME:           Image
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Image
+	STORID:         19061
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #15: core.Database
+
+	NAME:           Database
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Database
+	STORID:         19062
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #16: conjugate.Glycosylation_Site
+
+	NAME:           Glycosylation_Site
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/conjugate#Glycosylation_Site
+	STORID:         19063
+	NAMESPACE:      http://purl.jp/bio/12/glyco/conjugate#
+	ANNOTATIONS:
+
+CLASS #17: core.Mutagenesis_Annotation
+
+	NAME:           Mutagenesis_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Mutagenesis_Annotation
+	STORID:         19064
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #18: core.Evidence_at_Transcript_Level_Existence
+
+	NAME:           Evidence_at_Transcript_Level_Existence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Evidence_at_Transcript_Level_Existence
+	STORID:         19065
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #19: core.Part
+
+	NAME:           Part
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Part
+	STORID:         19066
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #20: core.Chain_Annotation
+
+	NAME:           Chain_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Chain_Annotation
+	STORID:         19067
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #21: core.FAB
+
+	NAME:           FAB
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/FAB
+	STORID:         19068
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #22: core.Infrared_Spectroscopy
+
+	NAME:           Infrared_Spectroscopy
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Infrared_Spectroscopy
+	STORID:         19069
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #23: core.MALDI
+
+	NAME:           MALDI
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/MALDI
+	STORID:         19070
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #24: core.Nucleotide_Binding_Annotation
+
+	NAME:           Nucleotide_Binding_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Nucleotide_Binding_Annotation
+	STORID:         19071
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #25: core.Gene
+
+	NAME:           Gene
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Gene
+	STORID:         19072
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #26: ontology.Disease_Ontology
+
+	NAME:           Disease_Ontology
+	LABEL:          ['']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Disease_Ontology
+	STORID:         19073
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #27: core.X-Ray_Crystallography
+
+	NAME:           X-Ray_Crystallography
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/X-Ray_Crystallography
+	STORID:         19074
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #28: core.Lipidation_Annotation
+
+	NAME:           Lipidation_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Lipidation_Annotation
+	STORID:         19075
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #29: core.Simple_Sequence
+
+	NAME:           Simple_Sequence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Simple_Sequence
+	STORID:         19076
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #30: ontology.Canonical_Residue
+
+	NAME:           Canonical_Residue
+	LABEL:          ['']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Canonical_Residue
+	STORID:         19077
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #31: core.Transcript_Resource
+
+	NAME:           Transcript_Resource
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Transcript_Resource
+	STORID:         19078
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #32: ontology.Reaction_Participant
+
+	NAME:           Reaction_Participant
+	LABEL:          ['']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Reaction_Participant
+	STORID:         19079
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #33: glycan.Glycosyl_Hydrolase_Reaction
+
+	NAME:           Glycosyl_Hydrolase_Reaction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Glycosyl_Hydrolase_Reaction
+	STORID:         19080
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #34: core.Enzyme_Regulation_Annotation
+
+	NAME:           Enzyme_Regulation_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Enzyme_Regulation_Annotation
+	STORID:         19081
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #35: core.Active_Site_Annotation
+
+	NAME:           Active_Site_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Active_Site_Annotation
+	STORID:         19082
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #36: core.Tissue
+
+	NAME:           Tissue
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Tissue
+	STORID:         19083
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #37: core.Polymorphism_Annotation
+
+	NAME:           Polymorphism_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Polymorphism_Annotation
+	STORID:         19084
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #38: glycan.Saccharide
+
+	NAME:           Saccharide
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Saccharide
+	STORID:         19085
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #39: core.Natural_Variant_Annotation
+
+	NAME:           Natural_Variant_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Natural_Variant_Annotation
+	STORID:         19086
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #40: core.Electron_Microscopy
+
+	NAME:           Electron_Microscopy
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Electron_Microscopy
+	STORID:         19087
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #41: ontology.Glycation_Site
+
+	NAME:           Glycation_Site
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Glycation_Site
+	STORID:         19088
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #42: core.Activity_Regulation_Annotation
+
+	NAME:           Activity_Regulation_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Activity_Regulation_Annotation
+	STORID:         19089
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #43: core.Alternative_Sequence_Annotation
+
+	NAME:           Alternative_Sequence_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Alternative_Sequence_Annotation
+	STORID:         19090
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #44: core.ESI
+
+	NAME:           ESI
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/ESI
+	STORID:         19091
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #45: ontology.Gene_Locus
+
+	NAME:           Gene_Locus
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Gene_Locus
+	STORID:         19092
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #46: core.Helix_Annotation
+
+	NAME:           Helix_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Helix_Annotation
+	STORID:         19093
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #47: glycan.Glycan_Motif
+
+	NAME:           Glycan_Motif
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Glycan_Motif
+	STORID:         19094
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #48: ontology.Xref_Identifier
+
+	NAME:           Xref_Identifier
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Xref_Identifier
+	STORID:         19095
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #49: core.Modified_Sequence
+
+	NAME:           Modified_Sequence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Modified_Sequence
+	STORID:         19096
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #50: core.Sequence_Conflict_Annotation
+
+	NAME:           Sequence_Conflict_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Sequence_Conflict_Annotation
+	STORID:         19097
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #51: faldo.FuzzyPosition
+
+	NAME:           FuzzyPosition
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.biohackathon.org/resource/faldo#FuzzyPosition
+	STORID:         19098
+	NAMESPACE:      http://www.biohackathon.org/resource/faldo#
+	ANNOTATIONS:
+
+CLASS #52: core.Structured_Name
+
+	NAME:           Structured_Name
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Structured_Name
+	STORID:         19099
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #53: glycan.Glycosyltransferase_Reaction
+
+	NAME:           Glycosyltransferase_Reaction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Glycosyltransferase_Reaction
+	STORID:         19100
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #54: glycan.Carbohydrate_Format
+
+	NAME:           Carbohydrate_Format
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Carbohydrate_Format
+	STORID:         19101
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #55: core.Resource
+
+	NAME:           Resource
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Resource
+	STORID:         19102
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #56: core.Domain_Annotation
+
+	NAME:           Domain_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Domain_Annotation
+	STORID:         19103
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #57: core.Neutron_Diffraction
+
+	NAME:           Neutron_Diffraction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Neutron_Diffraction
+	STORID:         19104
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #58: core.Disulfide_Bond_Annotation
+
+	NAME:           Disulfide_Bond_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Disulfide_Bond_Annotation
+	STORID:         19105
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #59: glycan.Glycosequence
+
+	NAME:           Glycosequence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Glycosequence
+	STORID:         19106
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #60: core.Self_Interaction
+
+	NAME:           Self_Interaction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Self_Interaction
+	STORID:         19107
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #61: core.Domain_Extent_Annotation
+
+	NAME:           Domain_Extent_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Domain_Extent_Annotation
+	STORID:         19108
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #62: faldo.ExactPosition
+
+	NAME:           ExactPosition
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.biohackathon.org/resource/faldo#ExactPosition
+	STORID:         19109
+	NAMESPACE:      http://www.biohackathon.org/resource/faldo#
+	ANNOTATIONS:
+
+CLASS #63: core.Site
+
+	NAME:           Site
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Site
+	STORID:         19110
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #64: core.Pathway
+
+	NAME:           Pathway
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Pathway
+	STORID:         19111
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #65: ontology.Snv_Site
+
+	NAME:           Snv_Site
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Snv_Site
+	STORID:         19112
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #66: core.Disruption_Phenotype_Annotation
+
+	NAME:           Disruption_Phenotype_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Disruption_Phenotype_Annotation
+	STORID:         19113
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #67: core.Fiber_Diffraction
+
+	NAME:           Fiber_Diffraction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Fiber_Diffraction
+	STORID:         19114
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #68: core.Modified_Residue_Annotation
+
+	NAME:           Modified_Residue_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Modified_Residue_Annotation
+	STORID:         19115
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #69: core.Domain_Extent_Annotatio
+
+	NAME:           Domain_Extent_Annotatio
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Domain_Extent_Annotatio
+	STORID:         19116
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #70: core.API
+
+	NAME:           API
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/API
+	STORID:         19117
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #71: core.Beta_Strand_Annotation
+
+	NAME:           Beta_Strand_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Beta_Strand_Annotation
+	STORID:         19118
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #72: core.Metal_Binding_Annotation
+
+	NAME:           Metal_Binding_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Metal_Binding_Annotation
+	STORID:         19119
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #73: core.Calcium_Binding_Annotation
+
+	NAME:           Calcium_Binding_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Calcium_Binding_Annotation
+	STORID:         19120
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #74: core.External_Sequence
+
+	NAME:           External_Sequence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/External_Sequence
+	STORID:         19121
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #75: core.Inferred_from_Homology_Existence
+
+	NAME:           Inferred_from_Homology_Existence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Inferred_from_Homology_Existence
+	STORID:         19122
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #76: ontology.GO_Classifier
+
+	NAME:           GO_Classifier
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/GO_Classifier
+	STORID:         19123
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #77: core.Disease_Annotation
+
+	NAME:           Disease_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Disease_Annotation
+	STORID:         19124
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #78: core.NP_Binding_Annotation
+
+	NAME:           NP_Binding_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/NP_Binding_Annotation
+	STORID:         19125
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #79: glycan.Source_Natural
+
+	NAME:           Source_Natural
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Source_Natural
+	STORID:         19126
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #80: core.Concept
+
+	NAME:           Concept
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Concept
+	STORID:         19127
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #81: glycan.Evidence
+
+	NAME:           Evidence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Evidence
+	STORID:         19128
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #82: core.Cofactor_Annotation
+
+	NAME:           Cofactor_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Cofactor_Annotation
+	STORID:         19129
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #83: core.Non_Self_Interaction
+
+	NAME:           Non_Self_Interaction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Non_Self_Interaction
+	STORID:         19130
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #84: core.Enzyme
+
+	NAME:           Enzyme
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Enzyme
+	STORID:         19131
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #85: core.Predicted_Existence
+
+	NAME:           Predicted_Existence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Predicted_Existence
+	STORID:         19132
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #86: core.Uncertain_Existence
+
+	NAME:           Uncertain_Existence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Uncertain_Existence
+	STORID:         19133
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #87: core.Turn_Annotation
+
+	NAME:           Turn_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Turn_Annotation
+	STORID:         19134
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #88: core.Catalytic_Activity_Annotation
+
+	NAME:           Catalytic_Activity_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Catalytic_Activity_Annotation
+	STORID:         19135
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #89: core.Cellular_Component
+
+	NAME:           Cellular_Component
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Cellular_Component
+	STORID:         19136
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #90: core.Cross-link_Annotation
+
+	NAME:           Cross-link_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Cross-link_Annotation
+	STORID:         19137
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #91: core.Glycosylation_Annotation
+
+	NAME:           Glycosylation_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Glycosylation_Annotation
+	STORID:         19138
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #92: core.Motif_Annotation
+
+	NAME:           Motif_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Motif_Annotation
+	STORID:         19139
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #93: core.Participant
+
+	NAME:           Participant
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Participant
+	STORID:         19140
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #94: core.PD
+
+	NAME:           PD
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/PD
+	STORID:         19141
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #95: core.Site_Annotation
+
+	NAME:           Site_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Site_Annotation
+	STORID:         19142
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #96: core.Mass_Spectrometry_Annotation
+
+	NAME:           Mass_Spectrometry_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Mass_Spectrometry_Annotation
+	STORID:         19143
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #97: core.Sequence_Caution_Annotation
+
+	NAME:           Sequence_Caution_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Sequence_Caution_Annotation
+	STORID:         19144
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #98: core.Subcellular_Location_Annotation
+
+	NAME:           Subcellular_Location_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Subcellular_Location_Annotation
+	STORID:         19145
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #99: core.Catalytic_Activity
+
+	NAME:           Catalytic_Activity
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Catalytic_Activity
+	STORID:         19146
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #100: faldo.Region
+
+	NAME:           Region
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://www.biohackathon.org/resource/faldo#Region
+	STORID:         19147
+	NAMESPACE:      http://www.biohackathon.org/resource/faldo#
+	ANNOTATIONS:
+
+CLASS #101: core.LSIMS
+
+	NAME:           LSIMS
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/LSIMS
+	STORID:         19148
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #102: core.Initiator_Methionine_Annotation
+
+	NAME:           Initiator_Methionine_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Initiator_Methionine_Annotation
+	STORID:         19149
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #103: core.Binding_Site_Annotation
+
+	NAME:           Binding_Site_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Binding_Site_Annotation
+	STORID:         19150
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #104: core.Taxon
+
+	NAME:           Taxon
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Taxon
+	STORID:         19151
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #105: core.Intramembrane_Annotation
+
+	NAME:           Intramembrane_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Intramembrane_Annotation
+	STORID:         19152
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #106: core.Function_Annotation
+
+	NAME:           Function_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Function_Annotation
+	STORID:         19153
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #107: core.Evidence_at_Protein_Level_Existence
+
+	NAME:           Evidence_at_Protein_Level_Existence
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Evidence_at_Protein_Level_Existence
+	STORID:         19154
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #108: ontology.Saccharide_Set
+
+	NAME:           Saccharide_Set
+	LABEL:          ['Saccharide Set']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Saccharide_Set
+	STORID:         19155
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #109: core.Signal_Peptide_Annotation
+
+	NAME:           Signal_Peptide_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Signal_Peptide_Annotation
+	STORID:         19156
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #110: glycan.Amino_Acid
+
+	NAME:           Amino_Acid
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Amino_Acid
+	STORID:         19157
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #111: ontology.Phospho_Site
+
+	NAME:           Phospho_Site
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Phospho_Site
+	STORID:         19158
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #112: core.Interaction
+
+	NAME:           Interaction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Interaction
+	STORID:         19159
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #113: core.Protein
+
+	NAME:           Protein
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Protein
+	STORID:         19160
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #114: glycan.Glycan_Database
+
+	NAME:           Glycan_Database
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.jp/bio/12/glyco/glycan#Glycan_Database
+	STORID:         19161
+	NAMESPACE:      http://purl.jp/bio/12/glyco/glycan#
+	ANNOTATIONS:
+
+CLASS #115: core.Prediction
+
+	NAME:           Prediction
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Prediction
+	STORID:         19162
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #116: core.PTM_Annotation
+
+	NAME:           PTM_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/PTM_Annotation
+	STORID:         19163
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #117: core.Peptide_Annotation
+
+	NAME:           Peptide_Annotation
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Peptide_Annotation
+	STORID:         19164
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #118: ontology.Reaction_Annotation
+
+	NAME:           Reaction_Annotation
+	LABEL:          ['']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Reaction_Annotation
+	STORID:         19165
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #119: core.Structure_Resource
+
+	NAME:           Structure_Resource
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            http://purl.uniprot.org/core/Structure_Resource
+	STORID:         19166
+	NAMESPACE:      http://purl.uniprot.org/core/
+	ANNOTATIONS:
+
+CLASS #120: ontology.Site
+
+	NAME:           Site
+	LABEL:          []
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Site
+	STORID:         19167
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+
+CLASS #121: ontology.Translated_Sequence
+
+	NAME:           Translated_Sequence
+	LABEL:          ['']
+	PARENT:         [owl.Thing]
+	IRI:            https://sparql.glygen.org/ontology/Translated_Sequence
+	STORID:         19168
+	NAMESPACE:      https://sparql.glygen.org/ontology/
+	ANNOTATIONS:
+

@@ -1,0 +1,141 @@
+class,name,label,parent,iri,storid,namespace,annotations
+obo.OBCI_0000001,OBCI_0000001,['biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000001,364,http://purl.obolibrary.org/obo/,"Annotation #1: Molecular, histologic, radiographic, or physiologic characteristics are types of biomarkers. A biomarker is not an assessment of how an individual feels, functions, or survives."
+obo.OBCI_0000002,OBCI_0000002,['diagnostic biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000002,365,http://purl.obolibrary.org/obo/,"Annotation #1: For a perfect diagnostic biomarker test, all patients with the disease or disease subset would be detected (100% sensitivity, i.e., the fraction of people with disease who test positive) and no patients without the disease would be diagnosed with the disease (100% specificity, i.e., the fraction of people without the disease who test negative). In practice no biomarker test has perfect clinical and analytical sensitivity and specificity. [NCBI:books/NBK402285]","Annotation #2: Per CIVic, such biomarkers can help a clinician diagnose or exclude a particular disease."
+obo.OBCI_0000003,OBCI_0000003,['monitoring biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000003,369,http://purl.obolibrary.org/obo/
+obo.OBCI_0000004,OBCI_0000004,['pharmacodynamic/response biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000004,371,http://purl.obolibrary.org/obo/
+obo.OBCI_0000005,OBCI_0000005,['predictive biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000005,373,http://purl.obolibrary.org/obo/,"Annotation #1: Per CIVic, such biomarkers help predict drug sensitivity or therapeutic response and are valuable in deciding further treatments. Predictive evidence items often explain mechanisms of drug resistance."
+obo.OBCI_0000006,OBCI_0000006,['prognostic biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000006,376,http://purl.obolibrary.org/obo/,"Annotation #1: Per CIVic, such biomarkers are those that predict survival outcome."
+obo.OBCI_0000007,OBCI_0000007,['safety biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000007,379,http://purl.obolibrary.org/obo/
+obo.OBCI_0000008,OBCI_0000008,['susceptibility/risk biomarker'],[obo.OBCI_0000016],http://purl.obolibrary.org/obo/OBCI_0000008,381,http://purl.obolibrary.org/obo/,"Annotation #1: Per CIVic, such biomarkers are those that indicate an increased likelihood of developing a particular disease."
+obo.OBCI_0000009,OBCI_0000009,['biomarker of disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000009,384,http://purl.obolibrary.org/obo/
+obo.OBCI_0000010,OBCI_0000010,['biomarker of COVID-19'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000010,386,http://purl.obolibrary.org/obo/
+obo.OBCI_0000011,OBCI_0000011,['biomarker of cancer'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000011,388,http://purl.obolibrary.org/obo/
+obo.OBCI_0000012,OBCI_0000012,['biomarker of exposure'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000012,390,http://purl.obolibrary.org/obo/
+obo.OBCI_0000013,OBCI_0000013,['urine biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000013,391,http://purl.obolibrary.org/obo/
+obo.OBCI_0000014,OBCI_0000014,['blood plasma biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000014,393,http://purl.obolibrary.org/obo/
+obo.OBCI_0000015,OBCI_0000015,['biomarker of medical condition'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000015,395,http://purl.obolibrary.org/obo/
+obo.OBCI_0000016,OBCI_0000016,['biomarker organized by BEST category'],[obo.OBCI_0000001],http://purl.obolibrary.org/obo/OBCI_0000016,368,http://purl.obolibrary.org/obo/
+obo.OBCI_0000017,OBCI_0000017,['biomarker organized by assessed entity'],[obo.OBCI_0000001],http://purl.obolibrary.org/obo/OBCI_0000017,396,http://purl.obolibrary.org/obo/
+obo.OBCI_0000018,OBCI_0000018,['biomarker organized by clinical focus'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000018,397,http://purl.obolibrary.org/obo/
+obo.OBCI_0000019,OBCI_0000019,['biomarker organized by specimen source'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000019,398,http://purl.obolibrary.org/obo/
+obo.OBCI_0000020,OBCI_0000020,['physiological characteristic biomarker'],[obo.OBCI_0000017],http://purl.obolibrary.org/obo/OBCI_0000020,400,http://purl.obolibrary.org/obo/
+obo.OBCI_0000021,OBCI_0000021,['cellular biomarker'],[obo.OBCI_0000017],http://purl.obolibrary.org/obo/OBCI_0000021,401,http://purl.obolibrary.org/obo/
+obo.OBCI_0000022,OBCI_0000022,['genetic variation biomarker'],[obo.OBCI_0000034],http://purl.obolibrary.org/obo/OBCI_0000022,403,http://purl.obolibrary.org/obo/
+obo.OBCI_0000023,OBCI_0000023,['glycan biomarker'],[obo.OBCI_0000034],http://purl.obolibrary.org/obo/OBCI_0000023,405,http://purl.obolibrary.org/obo/
+obo.OBCI_0000024,OBCI_0000024,['small molecule biomarker'],[obo.OBCI_0000034],http://purl.obolibrary.org/obo/OBCI_0000024,407,http://purl.obolibrary.org/obo/
+obo.OBCI_0000025,OBCI_0000025,['transcript biomarker'],[obo.OBCI_0000034],http://purl.obolibrary.org/obo/OBCI_0000025,408,http://purl.obolibrary.org/obo/
+obo.OBCI_0000026,OBCI_0000026,['exhaled breath biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000026,409,http://purl.obolibrary.org/obo/
+obo.OBCI_0000027,OBCI_0000027,['propanol in exhaled breath above normal'],[obo.OBCI_0000024],http://purl.obolibrary.org/obo/OBCI_0000027,411,http://purl.obolibrary.org/obo/
+obo.OBCI_0000028,OBCI_0000028,['ethyl butanoate in exhaled breath above normal'],"[obo.OBCI_0000024, obo.OBCI_0000001 & obo.OBCI_1000001.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000028,413,http://purl.obolibrary.org/obo/
+obo.OBCI_0000029,OBCI_0000029,['blood biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000029,415,http://purl.obolibrary.org/obo/
+obo.OBCI_0000030,OBCI_0000030,['potassium in blood plasma below normal'],[obo.OBCI_0000024],http://purl.obolibrary.org/obo/OBCI_0000030,417,http://purl.obolibrary.org/obo/
+obo.OBCI_0000031,OBCI_0000031,['sodium in blood below normal'],[obo.OBCI_0000024],http://purl.obolibrary.org/obo/OBCI_0000031,419,http://purl.obolibrary.org/obo/
+obo.OBCI_0000032,OBCI_0000032,['protein biomarker'],[obo.OBCI_0000034],http://purl.obolibrary.org/obo/OBCI_0000032,421,http://purl.obolibrary.org/obo/
+obo.OBCI_0000033,OBCI_0000033,['fibrinogen-to-albumin ratio in blood above normal'],[obo.OBCI_0000032],http://purl.obolibrary.org/obo/OBCI_0000033,423,http://purl.obolibrary.org/obo/
+obo.OBCI_0000034,OBCI_0000034,['molecular biomarker'],[obo.OBCI_0000017],http://purl.obolibrary.org/obo/OBCI_0000034,404,http://purl.obolibrary.org/obo/
+obo.OBCI_0000035,OBCI_0000035,"[locstr('monitoring biomarker - clinical condition', 'en')]",[obo.OBCI_0000003],http://purl.obolibrary.org/obo/OBCI_0000035,426,http://purl.obolibrary.org/obo/
+obo.OBCI_0000036,OBCI_0000036,"[locstr('monitoring biomarker - exposure', 'en')]",[obo.OBCI_0000003],http://purl.obolibrary.org/obo/OBCI_0000036,427,http://purl.obolibrary.org/obo/
+obo.OBCI_0000037,OBCI_0000037,"[locstr('condition of clinical interest', 'en')]",[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000037,343,http://purl.obolibrary.org/obo/
+obo.OBCI_0000038,OBCI_0000038,['presence of ANGPT2 polymorphism rs12674822'],"[obo.OBCI_0000022, obo.OBCI_1000006.some(None), obo.OBCI_1000008.some(None), obo.OBCI_1000008.some(None), obo.OBCI_1000008.some(None), obo.OBCI_1000018.some(None), obo.OBCI_1000018.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000038,430,http://purl.obolibrary.org/obo/
+obo.OBCI_0000039,OBCI_0000039,['cerebrospinal fluid biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000039,436,http://purl.obolibrary.org/obo/
+obo.OBCI_0000040,OBCI_0000040,['potassium in urine below normal'],[obo.OBCI_0000024],http://purl.obolibrary.org/obo/OBCI_0000040,438,http://purl.obolibrary.org/obo/
+obo.OBCI_0000041,OBCI_0000041,['biomarker of respiratory system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000041,439,http://purl.obolibrary.org/obo/
+obo.OBCI_0000042,OBCI_0000042,['biomarker of cognitive disorder'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000042,441,http://purl.obolibrary.org/obo/
+obo.OBCI_0000043,OBCI_0000043,['biomarker of disease by infectious agent'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000043,443,http://purl.obolibrary.org/obo/
+obo.OBCI_0000044,OBCI_0000044,['biomarker of disease of anatomical entity'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000044,445,http://purl.obolibrary.org/obo/
+obo.OBCI_0000045,OBCI_0000045,['biomarker of cardiovascular system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000045,447,http://purl.obolibrary.org/obo/
+obo.OBCI_0000046,OBCI_0000046,['biomarker of endocrine system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000046,449,http://purl.obolibrary.org/obo/
+obo.OBCI_0000047,OBCI_0000047,['biomarker of gastrointestinal system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000047,451,http://purl.obolibrary.org/obo/
+obo.OBCI_0000048,OBCI_0000048,['biomarker of hematopoietic system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000048,453,http://purl.obolibrary.org/obo/
+obo.OBCI_0000049,OBCI_0000049,['biomarker of immune system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000049,455,http://purl.obolibrary.org/obo/
+obo.OBCI_0000050,OBCI_0000050,['biomarker of integumentary system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000050,457,http://purl.obolibrary.org/obo/
+obo.OBCI_0000051,OBCI_0000051,['biomarker of musculoskeletal system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000051,459,http://purl.obolibrary.org/obo/
+obo.OBCI_0000052,OBCI_0000052,['biomarker of nervous system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000052,461,http://purl.obolibrary.org/obo/
+obo.OBCI_0000053,OBCI_0000053,['biomarker of reproductive system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000053,463,http://purl.obolibrary.org/obo/
+obo.OBCI_0000054,OBCI_0000054,['biomarker of thoracic disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000054,465,http://purl.obolibrary.org/obo/
+obo.OBCI_0000055,OBCI_0000055,['biomarker of urinary system disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000055,467,http://purl.obolibrary.org/obo/
+obo.OBCI_0000056,OBCI_0000056,['biomarker of disease of cellular proliferation'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000056,469,http://purl.obolibrary.org/obo/
+obo.OBCI_0000057,OBCI_0000057,['biomarker of disease of metabolism'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000057,471,http://purl.obolibrary.org/obo/
+obo.OBCI_0000058,OBCI_0000058,['biomarker of genetic disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000058,473,http://purl.obolibrary.org/obo/
+obo.OBCI_0000059,OBCI_0000059,['saliva biomarker'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000059,475,http://purl.obolibrary.org/obo/
+obo.OBCI_0000060,OBCI_0000060,['neutrophil-to-lymphocyte ratio in blood above normal'],"[obo.OBCI_0000021, obo.OBCI_0000001 & obo.OBCI_1000006.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000060,477,http://purl.obolibrary.org/obo/
+obo.OBCI_0000061,OBCI_0000061,['neuron-specific enolase in blood above normal'],"[obo.OBCI_0000032, obo.OBCI_0000001 & obo.OBCI_1000006.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000061,479,http://purl.obolibrary.org/obo/
+obo.OBCI_0000062,OBCI_0000062,['soluble urokinase plasminogen activator receptor in blood above normal'],"[obo.OBCI_0000032, obo.OBCI_1000006.some(None), obo.OBCI_1000006.some(None), obo.OBCI_1000006.some(None), obo.OBCI_1000006.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000062,481,http://purl.obolibrary.org/obo/
+obo.OBCI_0000063,OBCI_0000063,['biomarker of phenotypic abnormality'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000063,486,http://purl.obolibrary.org/obo/
+obo.OBCI_0000065,OBCI_0000065,"[locstr('exposure agent', 'en')]",[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000065,346,http://purl.obolibrary.org/obo/
+obo.OBCI_0000066,OBCI_0000066,['voice biomarker'],[obo.OBCI_0000020],http://purl.obolibrary.org/obo/OBCI_0000066,489,http://purl.obolibrary.org/obo/
+obo.OBCI_0000067,OBCI_0000067,['biomarker of lysinuric protein intolerance'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000067,495,http://purl.obolibrary.org/obo/
+obo.OBCI_0000068,OBCI_0000068,['biomarker of sepiapterin reductase deficiency'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000068,497,http://purl.obolibrary.org/obo/
+obo.OBCI_0000069,OBCI_0000069,['biomarker of celiac disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000069,499,http://purl.obolibrary.org/obo/
+obo.OBCI_0000070,OBCI_0000070,['biomarker of nephrotic syndrome'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000070,501,http://purl.obolibrary.org/obo/
+obo.OBCI_0000071,OBCI_0000071,['biomarker of malaria'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000071,503,http://purl.obolibrary.org/obo/
+obo.OBCI_0000072,OBCI_0000072,['biomarker of lung cancer'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000072,504,http://purl.obolibrary.org/obo/
+obo.OBCI_0000073,OBCI_0000073,['biomarker of porphyria'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000073,505,http://purl.obolibrary.org/obo/
+obo.OBCI_0000074,OBCI_0000074,['biomarker of hepatic encephalopathy'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000074,507,http://purl.obolibrary.org/obo/
+obo.OBCI_0000075,OBCI_0000075,['biomarker of hypothyroidism'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000075,509,http://purl.obolibrary.org/obo/
+obo.OBCI_0000076,OBCI_0000076,['biomarker of cystic fibrosis'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000076,511,http://purl.obolibrary.org/obo/
+obo.OBCI_0000077,OBCI_0000077,['biomarker of epilepsy'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000077,513,http://purl.obolibrary.org/obo/
+obo.OBCI_0000078,OBCI_0000078,['biomarker of motor neuron disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000078,515,http://purl.obolibrary.org/obo/
+obo.OBCI_0000079,OBCI_0000079,['biomarker of asthma'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000079,517,http://purl.obolibrary.org/obo/
+obo.OBCI_0000080,OBCI_0000080,['biomarker of pulmonary tuberculosis'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000080,519,http://purl.obolibrary.org/obo/
+obo.OBCI_0000081,OBCI_0000081,['biomarker of mastocytosis'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000081,520,http://purl.obolibrary.org/obo/
+obo.OBCI_0000082,OBCI_0000082,['biomarker of liver disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000082,522,http://purl.obolibrary.org/obo/
+obo.OBCI_0000083,OBCI_0000083,['biomarker of uremia'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000083,524,http://purl.obolibrary.org/obo/
+obo.OBCI_0000084,OBCI_0000084,['biomarker of human immunodeficiency virus infectious disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000084,526,http://purl.obolibrary.org/obo/
+obo.OBCI_0000085,OBCI_0000085,['biomarker of prolactinoma'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000085,527,http://purl.obolibrary.org/obo/
+obo.OBCI_0000086,OBCI_0000086,['biomarker of schizophrenia'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000086,529,http://purl.obolibrary.org/obo/
+obo.OBCI_0000087,OBCI_0000087,['biomarker of rheumatoid arthritis'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000087,531,http://purl.obolibrary.org/obo/
+obo.OBCI_0000088,OBCI_0000088,['biomarker of chronic kidney disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000088,532,http://purl.obolibrary.org/obo/
+obo.OBCI_0000089,OBCI_0000089,['biomarker of hyperthyroidism'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000089,534,http://purl.obolibrary.org/obo/
+obo.OBCI_0000090,OBCI_0000090,['biomarker of autosomal dominant polycystic kidney disease'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000090,536,http://purl.obolibrary.org/obo/
+obo.OBCI_0000091,OBCI_0000091,['biomarker of colorectal cancer'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000091,538,http://purl.obolibrary.org/obo/
+obo.OBCI_0000092,OBCI_0000092,['biomarker of meningitis'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_0000092,539,http://purl.obolibrary.org/obo/
+obo.OBCI_0000093,OBCI_0000093,['L-alanine in cerebrospinal fluid below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000093,541,http://purl.obolibrary.org/obo/
+obo.OBCI_0000094,OBCI_0000094,['4-hydroxynonenal in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000094,543,http://purl.obolibrary.org/obo/
+obo.OBCI_0000095,OBCI_0000095,['4-heptanone in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000095,545,http://purl.obolibrary.org/obo/
+obo.OBCI_0000096,OBCI_0000096,['D-pipecolic acid in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000096,547,http://purl.obolibrary.org/obo/
+obo.OBCI_0000097,OBCI_0000097,['hexanal in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000097,549,http://purl.obolibrary.org/obo/
+obo.OBCI_0000098,OBCI_0000098,['malonaldehyde in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000098,551,http://purl.obolibrary.org/obo/
+obo.OBCI_0000099,OBCI_0000099,['phenylacetic acid in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000099,553,http://purl.obolibrary.org/obo/
+obo.OBCI_0000100,OBCI_0000100,['phenol in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000100,555,http://purl.obolibrary.org/obo/
+obo.OBCI_0000101,OBCI_0000101,['sepiapterin in cerebrospinal fluid above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000101,557,http://purl.obolibrary.org/obo/
+obo.OBCI_0000102,OBCI_0000102,['porphobilinogen in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000102,559,http://purl.obolibrary.org/obo/
+obo.OBCI_0000103,OBCI_0000103,['porphobilinogen in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000103,561,http://purl.obolibrary.org/obo/
+obo.OBCI_0000104,OBCI_0000104,['glucitol in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000104,562,http://purl.obolibrary.org/obo/
+obo.OBCI_0000105,OBCI_0000105,['allantoin in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000105,564,http://purl.obolibrary.org/obo/
+obo.OBCI_0000106,OBCI_0000106,['allantoin in cerebrospinal fluid above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000106,566,http://purl.obolibrary.org/obo/
+obo.OBCI_0000107,OBCI_0000107,"['6,7-dihydrobiopterin in blood above normal']","[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000107,567,http://purl.obolibrary.org/obo/
+obo.OBCI_0000108,OBCI_0000108,['L-arginine in blood below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000108,569,http://purl.obolibrary.org/obo/
+obo.OBCI_0000109,OBCI_0000109,['ascorbic acid in cerebrospinal fluid below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000109,571,http://purl.obolibrary.org/obo/
+obo.OBCI_0000110,OBCI_0000110,['lactulose in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000110,573,http://purl.obolibrary.org/obo/
+obo.OBCI_0000111,OBCI_0000111,['lithocholic acid in blood below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000111,575,http://purl.obolibrary.org/obo/
+obo.OBCI_0000112,OBCI_0000112,['mannitol in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000112,577,http://purl.obolibrary.org/obo/
+obo.OBCI_0000113,OBCI_0000113,['creatine in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None), obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000113,579,http://purl.obolibrary.org/obo/
+obo.OBCI_0000114,OBCI_0000114,"['1,7-dimethyluric acid in urine above normal']","[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000114,581,http://purl.obolibrary.org/obo/
+obo.OBCI_0000115,OBCI_0000115,['N(tele)-methylhistamine in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000115,583,http://purl.obolibrary.org/obo/
+obo.OBCI_0000116,OBCI_0000116,['trimethylamine N-oxide in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000116,585,http://purl.obolibrary.org/obo/
+obo.OBCI_0000117,OBCI_0000117,['ursodeoxycholic acid in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000117,587,http://purl.obolibrary.org/obo/
+obo.OBCI_0000118,OBCI_0000118,['2-methoxyestrone in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000118,589,http://purl.obolibrary.org/obo/
+obo.OBCI_0000119,OBCI_0000119,['25-hydroxyvitamin D2 in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000119,591,http://purl.obolibrary.org/obo/
+obo.OBCI_0000120,OBCI_0000120,['thiocyanate in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000120,593,http://purl.obolibrary.org/obo/
+obo.OBCI_0000121,OBCI_0000121,['1-methylguanosine in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None), obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000121,595,http://purl.obolibrary.org/obo/
+obo.OBCI_0000122,OBCI_0000122,['p-cresol in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000122,597,http://purl.obolibrary.org/obo/
+obo.OBCI_0000123,OBCI_0000123,['gamma-aminobutyric acid in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000123,599,http://purl.obolibrary.org/obo/
+obo.OBCI_0000124,OBCI_0000124,['theophylline in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000124,601,http://purl.obolibrary.org/obo/
+obo.OBCI_0000125,OBCI_0000125,['3-nitrotyrosine in cerebrospinal fluid above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000125,603,http://purl.obolibrary.org/obo/
+obo.OBCI_0000126,OBCI_0000126,['vasopressin in cerebrospinal fluid above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000126,605,http://purl.obolibrary.org/obo/
+obo.OBCI_0000127,OBCI_0000127,['glycocholic acid in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000127,607,http://purl.obolibrary.org/obo/
+obo.OBCI_0000128,OBCI_0000128,['1-methylinosine in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000128,609,http://purl.obolibrary.org/obo/
+obo.OBCI_0000129,OBCI_0000129,['thyroxine sulfate in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None), obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000129,611,http://purl.obolibrary.org/obo/
+obo.OBCI_0000130,OBCI_0000130,['1-methyl-4-imidazoleacetic acid in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000130,613,http://purl.obolibrary.org/obo/
+obo.OBCI_0000131,OBCI_0000131,['theobromine in urine above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000131,615,http://purl.obolibrary.org/obo/
+obo.OBCI_0000132,OBCI_0000132,['methanethiol in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000132,617,http://purl.obolibrary.org/obo/
+obo.OBCI_0000133,OBCI_0000133,['D-serine in urine below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000133,619,http://purl.obolibrary.org/obo/
+obo.OBCI_0000134,OBCI_0000134,['4-guanidinobutanoic acid in blood above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000134,621,http://purl.obolibrary.org/obo/
+obo.OBCI_0000135,OBCI_0000135,"['3,5-diiodo-L-tyrosine in urine above normal']","[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000135,623,http://purl.obolibrary.org/obo/
+obo.OBCI_0000136,OBCI_0000136,['calcidiol in urine below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000136,625,http://purl.obolibrary.org/obo/
+obo.OBCI_0000137,OBCI_0000137,['heptan-2-one in cerebrospinal fluid above normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000137,627,http://purl.obolibrary.org/obo/
+obo.OBCI_0000138,OBCI_0000138,['anandamide in cerebrospinal fluid below normal'],"[obo.OBCI_0000024, obo.OBCI_1000002.some(None)]",http://purl.obolibrary.org/obo/OBCI_0000138,629,http://purl.obolibrary.org/obo/
+obo.OBCI_3000004,OBCI_3000004,['neutrophil-to-lymphocyte ratio'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_3000004,478,http://purl.obolibrary.org/obo/
+obo.OBCI_3000005,OBCI_3000005,['fibrinogen-to-albumin ratio'],[owl.Thing],http://purl.obolibrary.org/obo/OBCI_3000005,424,http://purl.obolibrary.org/obo/
+snp.rs12674822,rs12674822,['ANGPT2 polymorphism rs12674822'],[owl.Thing],https://www.ncbi.nlm.nih.gov/snp/rs12674822,431,https://www.ncbi.nlm.nih.gov/snp/

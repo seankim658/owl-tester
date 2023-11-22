@@ -1,0 +1,1168 @@
+OBJECT PROPERTY #1: rdf-schema.subClassOf
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#subClassOf
+	DOMAIN:         [core.Enzyme]
+	RANGE:          [core.Enzyme]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #2: rdf-schema.comment
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#comment
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #3: rdf-schema.label
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#label
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #4: rdf-schema.seeAlso
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#seeAlso
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #5: core.exactMatch
+
+	LABEL:          ['has exact match']
+	IRI:            http://www.w3.org/2004/02/skos/core#exactMatch
+	DOMAIN:         [core.Journal_Citation]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #6: ontology.comment
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/comment
+	DOMAIN:         [ontology.Phospho_Site, ontology.Glycation_Site, ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #7: ontology.chr_id
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/chr_id
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #8: core.fullName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/fullName
+	DOMAIN:         [core.Structured_Name]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #9: core.enzymeClass
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/enzymeClass
+	DOMAIN:         [core.Catalytic_Activity]
+	RANGE:          [core.Enzyme]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #10: core.prefLabel
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2004/02/skos/core#prefLabel
+	DOMAIN:         [None, core.Cellular_Component, core.Concept, core.Enzyme, core.Gene]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #11: ontology.xrefIdentifier
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/xrefIdentifier
+	DOMAIN:         [ontology.Reaction_Participant]
+	RANGE:          [ontology.Xref_Identifier]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #12: ontology.chr_pos
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/chr_pos
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #13: core.existence
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/existence
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Evidence_at_Protein_Level_Existence, core.Evidence_at_Transcript_Level_Existence, core.Inferred_from_Homology_Existence, core.Predicted_Existence, core.Uncertain_Existence]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #14: ontology.glycationsite
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/glycationsite
+	DOMAIN:         [core.Site]
+	RANGE:          [ontology.Glycation_Site]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #15: ontology.geneRange
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/geneRange
+	DOMAIN:         [ontology.Gene_Locus]
+	RANGE:          [faldo.Region]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #16: core.activity
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/activity
+	DOMAIN:         [core.Enzyme]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #17: core.catalyticActivity
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/catalyticActivity
+	DOMAIN:         [core.Catalytic_Activity_Annotation]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #18: core.created
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/created
+	DOMAIN:         [core.Protein]
+	RANGE:          [<class 'datetime.date'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #19: core.locatedIn
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/locatedIn
+	DOMAIN:         [core.Subcellular_Location_Annotation]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #20: core.submittedName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/submittedName
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Structured_Name]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #21: core.abbreviation
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/abbreviation
+	DOMAIN:         [core.Database]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #22: ontology.ref_nt
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/ref_nt
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #23: faldo.begin
+
+	LABEL:          []
+	IRI:            http://www.biohackathon.org/resource/faldo#begin
+	DOMAIN:         [faldo.Region]
+	RANGE:          [faldo.ExactPosition]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #24: ontology.pathwayDatabase
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/pathwayDatabase
+	DOMAIN:         [ontology.Pathway_Annotation]
+	RANGE:          [core.Database]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #25: core.date
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/date
+	DOMAIN:         [core.Journal_Citation]
+	RANGE:          [<class 'datetime.date'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #26: ontology.exonRange
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/exonRange
+	DOMAIN:         [core.Transcript_Resource]
+	RANGE:          [faldo.Region]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #27: ontology.hasLocus
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/hasLocus
+	DOMAIN:         [core.Gene]
+	RANGE:          [ontology.Gene_Locus]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #28: core.related
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2004/02/skos/core#related
+	DOMAIN:         [core.Natural_Variant_Annotation]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #29: core.chainSequenceMapping
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/chainSequenceMapping
+	DOMAIN:         [core.Structure_Resource]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #30: ontology.phosphosite
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/phosphosite
+	DOMAIN:         [ontology.Site]
+	RANGE:          [ontology.Phospho_Site]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #31: core.mnemonic
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/mnemonic
+	DOMAIN:         [None, core.Protein]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #32: core.alternativeName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/alternativeName
+	DOMAIN:         [core.Part, core.Protein]
+	RANGE:          [core.Structured_Name]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #33: ontology.rxnDisease
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/rxnDisease
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [ontology.Disease_Ontology]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #34: ontology.rxnSummary
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/rxnSummary
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #35: core.citation
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/citation
+	DOMAIN:         [glycan.Evidence, ontology.Reaction_Annotation, core.Protein]
+	RANGE:          [core.Journal_Citation]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #36: core.catalyzedReaction
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/catalyzedReaction
+	DOMAIN:         [None]
+	RANGE:          [ontology.Reaction_Annotation]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #37: ontology.xrefId
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/xrefId
+	DOMAIN:         [ontology.Xref_Identifier]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #38: ontology.rxnOutput
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/rxnOutput
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [ontology.Reaction_Participant]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #39: core.encodedBy
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/encodedBy
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Gene]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #40: ontology.canonical
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/canonical
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [<class 'bool'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #41: ontology.has_canonical_residue
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_canonical_residue
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [ontology.Canonical_Residue]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #42: core.conflictingSequence
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/conflictingSequence
+	DOMAIN:         [core.Sequence_Conflict_Annotation]
+	RANGE:          [core.External_Sequence]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #43: core.modified
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/modified
+	DOMAIN:         [core.Protein, core.Simple_Sequence]
+	RANGE:          [<class 'datetime.date'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #44: faldo.position
+
+	LABEL:          []
+	IRI:            http://www.biohackathon.org/resource/faldo#position
+	DOMAIN:         [faldo.ExactPosition]
+	RANGE:          [<class 'int'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #45: ontology.rxnEvidence
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/rxnEvidence
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #46: core.organism
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/organism
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Taxon]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #47: ontology.snvsite
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/snvsite
+	DOMAIN:         [core.Site]
+	RANGE:          [ontology.Snv_Site]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #48: core.version
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/version
+	DOMAIN:         [core.Protein, core.Simple_Sequence]
+	RANGE:          [<class 'int'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #49: core.scientificName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/scientificName
+	DOMAIN:         [core.Taxon]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #50: core.altLabel
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2004/02/skos/core#altLabel
+	DOMAIN:         [None, core.Cellular_Component, core.Concept, core.Enzyme, core.Gene]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #51: core.volume
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/volume
+	DOMAIN:         [core.Journal_Citation]
+	RANGE:          [<class 'int'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #52: conjugate.has_saccharide
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/conjugate#has_saccharide
+	DOMAIN:         [conjugate.Glycosylation_Site, ontology.Saccharide_Set, ontology.Glycation_Site]
+	RANGE:          [glycan.Saccharide]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #53: core.sequence
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/sequence
+	DOMAIN:         [ontology.Glycoprotein, core.Cofactor_Annotation, core.Cross-link_Annotation, core.Glycosylation_Annotation, core.Initiator_Methionine_Annotation, core.Lipidation_Annotation, core.Mass_Spectrometry_Annotation, core.Modified_Residue_Annotation, core.Natural_Variant_Annotation, core.Protein, core.Sequence_Caution_Annotation, core.Sequence_Conflict_Annotation, core.Subcellular_Location_Annotation]
+	RANGE:          [core.Simple_Sequence, core.External_Sequence, core.Modified_Sequence]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #54: ontology.pathway
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/pathway
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [ontology.Pathway_Annotation]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #55: core.title
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/title
+	DOMAIN:         [core.Journal_Citation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #56: glycan.has_glycosequence
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_glycosequence
+	DOMAIN:         [glycan.Glycan_Motif, glycan.Saccharide]
+	RANGE:          [glycan.Glycosequence]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #57: core.isolatedFrom
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/isolatedFrom
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Tissue]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #58: core.enzyme
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/enzyme
+	DOMAIN:         [core.Part, core.Protein]
+	RANGE:          [core.Enzyme]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #59: ontology.snv_keyword
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/snv_keyword
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #60: glycan.has_sequence
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_sequence
+	DOMAIN:         [glycan.Glycosequence]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #61: faldo.location
+
+	LABEL:          []
+	IRI:            http://www.biohackathon.org/resource/faldo#location
+	DOMAIN:         [conjugate.Glycosylation_Site, ontology.Phospho_Site, ontology.Glycation_Site, ontology.Snv_Site]
+	RANGE:          [faldo.ExactPosition, faldo.FuzzyPosition]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #62: core.interaction
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/interaction
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Interaction, core.Non_Self_Interaction, core.Self_Interaction]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #63: core.participant
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/participant
+	DOMAIN:         [core.Interaction, core.Non_Self_Interaction, core.Self_Interaction]
+	RANGE:          [core.Participant]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #64: ontology.equation
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/equation
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #65: core.xeno
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/xeno
+	DOMAIN:         [core.Interaction, core.Non_Self_Interaction, core.Self_Interaction]
+	RANGE:          [<class 'bool'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #66: glycan.in_carbohydrate_format
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format
+	DOMAIN:         [glycan.Glycosequence]
+	RANGE:          [glycan.Carbohydrate_Format]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #67: ontology.cellularLocation
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/cellularLocation
+	DOMAIN:         [ontology.Reaction_Annotation, ontology.Reaction_Participant]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #68: ontology.mass
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/mass
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [<class 'float'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #69: glycan.has_evidence
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_evidence
+	DOMAIN:         [glycan.Saccharide, ontology.Glycoprotein, None, None, None]
+	RANGE:          [glycan.Evidence]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #70: core.pages
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/pages
+	DOMAIN:         [core.Journal_Citation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #71: conjugate.glycosylated_at
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/conjugate#glycosylated_at
+	DOMAIN:         [ontology.Glycoprotein]
+	RANGE:          [conjugate.Glycosylation_Site]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #72: glycan.has_taxon
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_taxon
+	DOMAIN:         [glycan.Source_Natural]
+	RANGE:          [core.Taxon]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #73: core.crc64Checksum
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/crc64Checksum
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [<class 'owlready2.util.normstr'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #74: core.translatedTo
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/translatedTo
+	DOMAIN:         [core.Transcript_Resource]
+	RANGE:          [ontology.Translated_Sequence]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #75: ontology.alt_nt
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/alt_nt
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #76: ontology.rxnName
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/rxnName
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #77: ontology.goClassification
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/goClassification
+	DOMAIN:         [None]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #78: core.annotation
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/annotation
+	DOMAIN:         [core.Protein]
+	RANGE:          [ontology.Reaction_Annotation, core.Active_Site_Annotation, core.Activity_Regulation_Annotation, core.Alternative_Sequence_Annotation, core.Beta_Strand_Annotation, core.Binding_Site_Annotation, core.Calcium_Binding_Annotation, core.Catalytic_Activity_Annotation, core.Chain_Annotation, core.Cofactor_Annotation, core.Cross-link_Annotation, core.Disease_Annotation, core.Disruption_Phenotype_Annotation, core.Disulfide_Bond_Annotation, core.Domain_Annotation, core.Domain_Extent_Annotatio, core.Function_Annotation, core.Glycosylation_Annotation, core.Helix_Annotation, core.Initiator_Methionine_Annotation, core.Intramembrane_Annotation, core.Lipidation_Annotation, core.Mass_Spectrometry_Annotation, core.Metal_Binding_Annotation, core.Modified_Residue_Annotation, core.Motif_Annotation, core.Mutagenesis_Annotation, core.Natural_Variant_Annotation, core.NP_Binding_Annotation, core.Nucleotide_Binding_Annotation, core.Peptide_Annotation, core.Polymorphism_Annotation, core.Propeptide_Annotation, core.PTM_Annotation, core.Sequence_Caution_Annotation, core.Sequence_Conflict_Annotation, core.Signal_Peptide_Annotation, core.Site_Annotation, core.Subcellular_Location_Annotation, core.Turn_Annotation]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #79: core.measuredValue
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/measuredValue
+	DOMAIN:         [core.Mass_Spectrometry_Annotation]
+	RANGE:          [<class 'float'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #80: ontology.kinase_uniprot_canonical_ac
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/kinase_uniprot_canonical_ac
+	DOMAIN:         [ontology.Phospho_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #81: core.shortName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/shortName
+	DOMAIN:         [core.Structured_Name]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #82: ontology.pathwayName
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/pathwayName
+	DOMAIN:         [ontology.Pathway_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #83: ontology.transcriptRange
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/transcriptRange
+	DOMAIN:         [core.Transcript_Resource]
+	RANGE:          [faldo.Region]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #84: core.ecName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/ecName
+	DOMAIN:         [core.Structured_Name]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #85: glycan.glycan_database
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#glycan_database
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [glycan.Glycan_Database]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #86: glycan.has_amino_acid
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_amino_acid
+	DOMAIN:         [faldo.ExactPosition]
+	RANGE:          [glycan.Amino_Acid]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #87: ontology.glycation_relation
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/glycation_relation
+	DOMAIN:         [ontology.Glycation_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #88: rdf-schema.recordurl
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#recordurl
+	DOMAIN:         [glycan.Glycan_Database]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #89: ontology.rxnInput
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/rxnInput
+	DOMAIN:         [ontology.Reaction_Annotation]
+	RANGE:          [ontology.Reaction_Participant]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #90: core.obsolete
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/obsolete
+	DOMAIN:         [core.Enzyme]
+	RANGE:          [<class 'bool'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #91: ontology.glycation_type
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/glycation_type
+	DOMAIN:         [ontology.Glycation_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #92: ontology.pathwaySummary
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/pathwaySummary
+	DOMAIN:         [ontology.Pathway_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #93: core.resolution
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/resolution
+	DOMAIN:         [core.Structure_Resource]
+	RANGE:          [<class 'float'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #94: core.method
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/method
+	DOMAIN:         [core.Mass_Spectrometry_Annotation, core.Structure_Resource]
+	RANGE:          [core.API, core.ESI, core.FAB, core.LSIMS, core.MALDI, core.PD, core.SELDI, core.Electron_Microscopy, core.Fiber_Diffraction, core.Infrared_Spectroscopy, core.Neutron_Diffraction, core.NMR_Spectroscopy, core.Prediction, core.X-Ray_Crystallography]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #95: glycan.has_image
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_image
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [glycan.Image]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #96: core.classifiedWith
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/classifiedWith
+	DOMAIN:         [core.Protein]
+	RANGE:          [ontology.GO_Classifier]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #97: core.cellularComponent
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/cellularComponent
+	DOMAIN:         [None]
+	RANGE:          [core.Cellular_Component]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #98: ontology.ensTranscript
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/ensTranscript
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [core.Transcript_Resource]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #99: core.fragment
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/fragment
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #100: core.evidence
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/evidence
+	DOMAIN:         [None]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #101: glycan.synthesized_by
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#synthesized_by
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [glycan.Glycosyltransferase_Reaction]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #102: core.orfName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/orfName
+	DOMAIN:         [core.Gene]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #103: glycan.has_url_template
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_url_template
+	DOMAIN:         [glycan.Glycan_Database]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #104: core.recommendedName
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/recommendedName
+	DOMAIN:         [core.Part, core.Protein]
+	RANGE:          [core.Structured_Name]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #105: core.name
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/name
+	DOMAIN:         [core.Journal_Citation, core.Simple_Sequence]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #106: core.author
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/author
+	DOMAIN:         [core.Journal_Citation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #107: ontology.has_residue_name
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_residue_name
+	DOMAIN:         [ontology.Canonical_Residue]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #108: core.component
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/component
+	DOMAIN:         [core.Protein]
+	RANGE:          [core.Part]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #109: core.disease
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/disease
+	DOMAIN:         [core.Disease_Annotation]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #110: ontology.chromosome
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/chromosome
+	DOMAIN:         [ontology.Gene_Locus, core.Transcript_Resource]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #111: core.database
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/database
+	DOMAIN:         [core.Resource, core.Structure_Resource]
+	RANGE:          [core.Database, None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #112: ontology.minor_allelic_frequency
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/minor_allelic_frequency
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #113: ontology.has_residue_id
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_residue_id
+	DOMAIN:         [ontology.Canonical_Residue]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #114: ontology.kinase_gene_name
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/kinase_gene_name
+	DOMAIN:         [ontology.Phospho_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #115: core.precursor
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/precursor
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [<class 'bool'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #116: ontology.snv_glycoeffect
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/snv_glycoeffect
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #117: ontology.participantName
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/participantName
+	DOMAIN:         [ontology.Reaction_Participant]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #118: ontology.alt_aa
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/alt_aa
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #119: core.cofactorLabel
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/cofactorLabel
+	DOMAIN:         [core.Enzyme]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #120: core.measuredError
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/measuredError
+	DOMAIN:         [core.Mass_Spectrometry_Annotation]
+	RANGE:          [<class 'float'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #121: faldo.end
+
+	LABEL:          []
+	IRI:            http://www.biohackathon.org/resource/faldo#end
+	DOMAIN:         [faldo.Region]
+	RANGE:          [faldo.ExactPosition]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #122: ontology.doName
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/doName
+	DOMAIN:         [ontology.Disease_Ontology]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #123: ontology.ref_aa
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/ref_aa
+	DOMAIN:         [ontology.Snv_Site]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #124: core.reviewed
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/reviewed
+	DOMAIN:         [core.Protein, core.Simple_Sequence]
+	RANGE:          [<class 'bool'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #125: glycan.is_from_source
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#is_from_source
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [glycan.Source_Natural]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #126: ontology.attached_by
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/attached_by
+	DOMAIN:         [ontology.Canonical_Residue]
+	RANGE:          [glycan.Glycosyltransferase_Reaction]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #127: core.source
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/source
+	DOMAIN:         [None]
+	RANGE:          [core.Journal_Citation]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #128: ontology.has_parent
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_parent
+	DOMAIN:         [ontology.Canonical_Residue]
+	RANGE:          [ontology.Canonical_Residue]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #129: core.replacedBy
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/replacedBy
+	DOMAIN:         [core.Enzyme]
+	RANGE:          [core.Enzyme]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #130: ontology.attribution
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/attribution
+	DOMAIN:         [core.Protein]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #131: core.replaces
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/replaces
+	DOMAIN:         [core.Enzyme]
+	RANGE:          [core.Enzyme]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #132: ontology.xrefIdType
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/xrefIdType
+	DOMAIN:         [ontology.Xref_Identifier]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #133: core.range
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/range
+	DOMAIN:         [core.Active_Site_Annotation, core.Alternative_Sequence_Annotation, core.Beta_Strand_Annotation, core.Binding_Site_Annotation, core.Calcium_Binding_Annotation, core.Chain_Annotation, core.Cross-link_Annotation, core.Disulfide_Bond_Annotation, core.Domain_Extent_Annotation, core.Glycosylation_Annotation, core.Helix_Annotation, core.Initiator_Methionine_Annotation, core.Intramembrane_Annotation, core.Lipidation_Annotation, core.Mass_Spectrometry_Annotation, core.Metal_Binding_Annotation, core.Modified_Residue_Annotation, core.Motif_Annotation, core.Mutagenesis_Annotation, core.Natural_Variant_Annotation, core.NP_Binding_Annotation, core.Nucleotide_Binding_Annotation, core.Peptide_Annotation, core.Propeptide_Annotation, core.Sequence_Conflict_Annotation, core.Signal_Peptide_Annotation, core.Site_Annotation, core.Turn_Annotation]
+	RANGE:          [faldo.Region]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #134: core.category
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/category
+	DOMAIN:         [core.Database]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #135: ontology.has_site
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_site
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [ontology.Site]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #136: ontology.has_pro_entry
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_pro_entry
+	DOMAIN:         [ontology.Glycoprotein]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #137: core.urlTemplate
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/urlTemplate
+	DOMAIN:         [core.Database]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #138: glycan.has_motif
+
+	LABEL:          []
+	IRI:            http://purl.jp/bio/12/glyco/glycan#has_motif
+	DOMAIN:         [glycan.Saccharide]
+	RANGE:          [glycan.Glycan_Motif]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #139: ontology.has_enzyme_protein
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_enzyme_protein
+	DOMAIN:         [glycan.Glycosyl_Hydrolase_Reaction, glycan.Glycosyltransferase_Reaction]
+	RANGE:          [core.Protein]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #140: ontology.reverseStrand
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/reverseStrand
+	DOMAIN:         [core.Transcript_Resource]
+	RANGE:          [<class 'bool'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #141: core.chain
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/chain
+	DOMAIN:         [None]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #142: core.substitution
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/substitution
+	DOMAIN:         [core.Alternative_Sequence_Annotation, core.Mutagenesis_Annotation, core.Natural_Variant_Annotation, core.Sequence_Conflict_Annotation]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #143: core.cofactor
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/cofactor
+	DOMAIN:         [core.Cofactor_Annotation]
+	RANGE:          [None]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #144: ontology.has_motif_name
+
+	LABEL:          []
+	IRI:            https://sparql.glygen.org/ontology/has_motif_name
+	DOMAIN:         [glycan.Glycan_Motif]
+	RANGE:          [<class 'str'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #145: core.mass
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/mass
+	DOMAIN:         [core.Simple_Sequence]
+	RANGE:          [<class 'int'>]
+	COMMENT:        Not specified
+
+OBJECT PROPERTY #146: core.experiments
+
+	LABEL:          []
+	IRI:            http://purl.uniprot.org/core/experiments
+	DOMAIN:         [core.Interaction, core.Non_Self_Interaction, core.Self_Interaction]
+	RANGE:          [<class 'int'>]
+	COMMENT:        Not specified
+

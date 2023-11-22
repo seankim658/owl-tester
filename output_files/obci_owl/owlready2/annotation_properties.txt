@@ -1,0 +1,160 @@
+ANNOTATION PROPERTY #1: rdf-schema.comment
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#comment
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #2: rdf-schema.label
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#label
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #3: terms.license
+
+	LABEL:          []
+	IRI:            http://purl.org/dc/terms/license
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #4: obo.IAO_0000115
+
+	LABEL:          ['definition']
+	IRI:            http://purl.obolibrary.org/obo/IAO_0000115
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #5: terms.description
+
+	LABEL:          []
+	IRI:            http://purl.org/dc/terms/description
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #6: terms.title
+
+	LABEL:          []
+	IRI:            http://purl.org/dc/terms/title
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #7: oboInOwl.auto-generated-by
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#auto-generated-by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #8: oboInOwl.date
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#date
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #9: oboInOwl.default-namespace
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#default-namespace
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #10: oboInOwl.hasBroadSynonym
+
+	LABEL:          ['has_broad_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #11: oboInOwl.hasDbXref
+
+	LABEL:          ['database_cross_reference']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasDbXref
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #12: oboInOwl.hasExactSynonym
+
+	LABEL:          ['has_exact_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #13: oboInOwl.hasNarrowSynonym
+
+	LABEL:          ['has_narrow_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #14: oboInOwl.hasOBOFormatVersion
+
+	LABEL:          ['has_obo_format_version']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #15: oboInOwl.hasOBONamespace
+
+	LABEL:          ['has_obo_namespace']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #16: oboInOwl.hasRelatedSynonym
+
+	LABEL:          ['has_related_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #17: oboInOwl.hasSynonymType
+
+	LABEL:          ['has_synonym_type']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasSynonymType
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #18: oboInOwl.id
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#id
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #19: oboInOwl.saved-by
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#saved-by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY #20: oboInOwl.shorthand
+
+	LABEL:          ['shorthand']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#shorthand
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+

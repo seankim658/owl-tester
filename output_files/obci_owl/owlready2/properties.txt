@@ -1,0 +1,328 @@
+PROPERTY #1: obo.OBCI_1000001
+
+	LABEL:          ['provides_clinical_information_for']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000001
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #2: obo.OBCI_1000002
+
+	LABEL:          ['diagnostic_for']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000002
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000037]
+	COMMENT:        []
+
+PROPERTY #3: obo.OBCI_1000003
+
+	LABEL:          ['monitors_status_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000003
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000037]
+	COMMENT:        []
+
+PROPERTY #4: obo.OBCI_1000004
+
+	LABEL:          ['indicates_response_to_exposure_to']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000004
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000065]
+	COMMENT:        []
+
+PROPERTY #5: obo.OBCI_1000010
+
+	LABEL:          ['indicates_clinical_effect_of_exposure_to']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000010
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #6: obo.OBCI_1000005
+
+	LABEL:          ['predicts_effect_of_exposure_to']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000005
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000065]
+	COMMENT:        []
+
+PROPERTY #7: obo.OBCI_1000006
+
+	LABEL:          ['prognostic_for']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000006
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000037]
+	COMMENT:        []
+
+PROPERTY #8: obo.OBCI_1000007
+
+	LABEL:          ['assesses_toxicity_of_exposure_to']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000007
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000065]
+	COMMENT:        []
+
+PROPERTY #9: obo.OBCI_1000008
+
+	LABEL:          ['indicates_risk_of_developing']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000008
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000037]
+	COMMENT:        []
+
+PROPERTY #10: obo.OBCI_1000009
+
+	LABEL:          ['indicated_by_above_normal_level_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000009
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #11: obo.OBCI_1000014
+
+	LABEL:          ['indicated_by_difference_in_level_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000014
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #12: obo.OBCI_1000011
+
+	LABEL:          ['has_BEST_classification']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000011
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #13: obo.OBCI_1000012
+
+	LABEL:          ['has_CIViC_classification']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000012
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #14: obo.OBCI_1000013
+
+	LABEL:          ['monitors_effect_of_exposure_to']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000013
+	DOMAIN:         []
+	RANGE:          [obo.OBCI_0000065]
+	COMMENT:        []
+
+PROPERTY #15: obo.OBCI_1000015
+
+	LABEL:          ['indicated_by_below_normal_level_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000015
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #16: obo.OBCI_1000016
+
+	LABEL:          ['indicated_by_presence_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000016
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #17: obo.OBCI_1000017
+
+	LABEL:          ['indicated_by_absence_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000017
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #18: obo.OBCI_1000018
+
+	LABEL:          ['determined_using_sample_from']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000018
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #19: obo.OBCI_1000019
+
+	LABEL:          ['concentration_of']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000019
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #20: obo.OBCI_1000021
+
+	LABEL:          ['has_denominator']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000021
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #21: obo.OBCI_1000022
+
+	LABEL:          ['has_numerator']
+	IRI:            http://purl.obolibrary.org/obo/OBCI_1000022
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #22: rdf-schema.comment
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#comment
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #23: rdf-schema.label
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#label
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #24: terms.license
+
+	LABEL:          []
+	IRI:            http://purl.org/dc/terms/license
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #25: obo.IAO_0000115
+
+	LABEL:          ['definition']
+	IRI:            http://purl.obolibrary.org/obo/IAO_0000115
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #26: terms.description
+
+	LABEL:          []
+	IRI:            http://purl.org/dc/terms/description
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #27: terms.title
+
+	LABEL:          []
+	IRI:            http://purl.org/dc/terms/title
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #28: oboInOwl.auto-generated-by
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#auto-generated-by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #29: oboInOwl.date
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#date
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #30: oboInOwl.default-namespace
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#default-namespace
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #31: oboInOwl.hasBroadSynonym
+
+	LABEL:          ['has_broad_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #32: oboInOwl.hasDbXref
+
+	LABEL:          ['database_cross_reference']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasDbXref
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #33: oboInOwl.hasExactSynonym
+
+	LABEL:          ['has_exact_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #34: oboInOwl.hasNarrowSynonym
+
+	LABEL:          ['has_narrow_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #35: oboInOwl.hasOBOFormatVersion
+
+	LABEL:          ['has_obo_format_version']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #36: oboInOwl.hasOBONamespace
+
+	LABEL:          ['has_obo_namespace']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #37: oboInOwl.hasRelatedSynonym
+
+	LABEL:          ['has_related_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #38: oboInOwl.hasSynonymType
+
+	LABEL:          ['has_synonym_type']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasSynonymType
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #39: oboInOwl.id
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#id
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #40: oboInOwl.saved-by
+
+	LABEL:          []
+	IRI:            http://www.geneontology.org/formats/oboInOwl#saved-by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+PROPERTY #41: oboInOwl.shorthand
+
+	LABEL:          ['shorthand']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#shorthand
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+

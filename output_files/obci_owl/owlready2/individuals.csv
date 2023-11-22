@@ -1,0 +1,13 @@
+individual,name,label,iri
+obo.OBCI_8000002,OBCI_8000002,['diagnostic (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000002
+obo.OBCI_8000008,OBCI_8000008,['diagnostic (CIViC)'],http://purl.obolibrary.org/obo/OBCI_8000008
+obo.OBCI_8000003,OBCI_8000003,['monitoring (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000003
+obo.OBCI_8000006,OBCI_8000006,['pharmacodynamic/response (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000006
+obo.OBCI_8000005,OBCI_8000005,['predictive (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000005
+obo.OBCI_8000009,OBCI_8000009,['predictive (CIViC)'],http://purl.obolibrary.org/obo/OBCI_8000009
+obo.OBCI_8000004,OBCI_8000004,['prognostic (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000004
+obo.OBCI_8000011,OBCI_8000011,['prognostic (CIViC)'],http://purl.obolibrary.org/obo/OBCI_8000011
+obo.OBCI_8000007,OBCI_8000007,['safety (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000007
+obo.OBCI_8000001,OBCI_8000001,['susceptibility/risk (BEST)'],http://purl.obolibrary.org/obo/OBCI_8000001
+obo.OBCI_8000010,OBCI_8000010,['predisposing (CIViC)'],http://purl.obolibrary.org/obo/OBCI_8000010
+obo.OBCI_8000012,OBCI_8000012,['functional (CIViC)'],http://purl.obolibrary.org/obo/OBCI_8000012
