@@ -1,0 +1,416 @@
+ANNOTATION PROPERTY: rdf-schema.comment
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#comment
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: rdf-schema.label
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2000/01/rdf-schema#label
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: owl.deprecated
+
+	LABEL:          []
+	IRI:            http://www.w3.org/2002/07/owl#deprecated
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: terms.license
+
+	LABEL:          ['license', 'license', 'license']
+	IRI:            http://purl.org/dc/terms/license
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: obo.IAO_0000115
+
+	LABEL:          ['definition', 'definition', 'definition', 'definition', 'definition', 'definition']
+	IRI:            http://purl.obolibrary.org/obo/IAO_0000115
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.auto-generated-by
+
+	LABEL:          ['auto-generated-by']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#auto-generated-by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.date
+
+	LABEL:          ['date']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#date
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.default-namespace
+
+	LABEL:          ['default-namespace']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#default-namespace
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasBroadSynonym
+
+	LABEL:          ['has_broad_synonym', 'has_broad_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasDbXref
+
+	LABEL:          ['database_cross_reference', 'database_cross_reference', 'database_cross_reference', 'database_cross_reference', 'database_cross_reference']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasDbXref
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasExactSynonym
+
+	LABEL:          ['has_exact_synonym', 'has_exact_synonym', 'has exact synonym', 'has_exact_synonym', 'has_exact_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasNarrowSynonym
+
+	LABEL:          ['has_narrow_synonym', 'has_narrow_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasOBOFormatVersion
+
+	LABEL:          ['has_obo_format_version', 'has_obo_format_version', 'has_obo_format_version', 'has_obo_format_version']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasOBONamespace
+
+	LABEL:          ['has_obo_namespace', 'has_obo_namespace', 'has_obo_namespace', 'has_obo_namespace']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['disease_ontology']
+
+ANNOTATION PROPERTY: oboInOwl.hasRelatedSynonym
+
+	LABEL:          ['has_related_synonym', 'has_related_synonym', 'has_related_synonym']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.id
+
+	LABEL:          ['id', 'id', 'id']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#id
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.saved-by
+
+	LABEL:          ['saved-by']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#saved-by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.created_by
+
+	LABEL:          ['created_by']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#created_by
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.inSubset
+
+	LABEL:          ['in_subset']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#inSubset
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: 1.1.description
+
+	LABEL:          ['description', 'description', 'description']
+	IRI:            http://purl.org/dc/elements/1.1/description
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: 1.1.title
+
+	LABEL:          ['title', 'title', 'title']
+	IRI:            http://purl.org/dc/elements/1.1/title
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: obo.IAO_0000119
+
+	LABEL:          ['definition source']
+	IRI:            http://purl.obolibrary.org/obo/IAO_0000119
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: obo.IAO_0000700
+
+	LABEL:          ['has_ontology_root_term', 'has ontology root term', locstr('has ontology root term', 'en')]
+	IRI:            http://purl.obolibrary.org/obo/IAO_0000700
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: obo.IAO_0100001
+
+	LABEL:          ['term replaced by', 'term replaced by']
+	IRI:            http://purl.obolibrary.org/obo/IAO_0100001
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: doid.DO_AGR_slim
+
+	LABEL:          ['DO_AGR_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_AGR_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_AGR_slim']
+
+ANNOTATION PROPERTY: doid.DO_CFDE_slim
+
+	LABEL:          ['DO_CFDE_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_CFDE_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_CFDE_slim']
+
+ANNOTATION PROPERTY: doid.DO_FlyBase_slim
+
+	LABEL:          ['DO_FlyBase_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_FlyBase_slim']
+
+ANNOTATION PROPERTY: doid.DO_GXD_slim
+
+	LABEL:          ['DO_GXD_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_GXD_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_GXD_slim']
+
+ANNOTATION PROPERTY: doid.DO_IEDB_slim
+
+	LABEL:          ['DO_IEDB_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_IEDB_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_IEDB_slim']
+
+ANNOTATION PROPERTY: doid.DO_MGI_slim
+
+	LABEL:          ['DO_MGI_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_MGI_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_MGI_slim']
+
+ANNOTATION PROPERTY: doid.DO_RAD_slim
+
+	LABEL:          ['DO_RAD_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_RAD_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_RAD_slim']
+
+ANNOTATION PROPERTY: doid.DO_cancer_slim
+
+	LABEL:          ['DO_cancer_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_cancer_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_cancer_slim']
+
+ANNOTATION PROPERTY: doid.DO_infectious_disease_slim
+
+	LABEL:          ['DO_infectious_disease_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_infectious_disease_slim']
+
+ANNOTATION PROPERTY: doid.DO_rare_slim
+
+	LABEL:          ['DO_rare_slim']
+	IRI:            http://purl.obolibrary.org/obo/doid#DO_rare_slim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['DO_rare_slim']
+
+ANNOTATION PROPERTY: doid.GOLD
+
+	LABEL:          ['GOLD']
+	IRI:            http://purl.obolibrary.org/obo/doid#GOLD
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['GOLD']
+
+ANNOTATION PROPERTY: doid.NCIthesaurus
+
+	LABEL:          ['NCIthesaurus']
+	IRI:            http://purl.obolibrary.org/obo/doid#NCIthesaurus
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['NCIthesaurus']
+
+ANNOTATION PROPERTY: doid.TopNodes_DOcancerslim
+
+	LABEL:          ['TopNodes_DOcancerslim']
+	IRI:            http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['TopNodes_DOcancerslim']
+
+ANNOTATION PROPERTY: doid.gram-negative_bacterial_infectious_disease
+
+	LABEL:          ['gram-negative_bacterial_infectious_disease']
+	IRI:            http://purl.obolibrary.org/obo/doid#gram-negative_bacterial_infectious_disease
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['gram-negative_bacterial_infectious_disease']
+
+ANNOTATION PROPERTY: doid.gram-positive_bacterial_infectious_disease
+
+	LABEL:          ['gram-positive_bacterial_infectious_disease']
+	IRI:            http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['gram-positive_bacterial_infectious_disease']
+
+ANNOTATION PROPERTY: doid.sexually_transmitted_infectious_disease
+
+	LABEL:          ['sexually_transmitted_infectious_disease']
+	IRI:            http://purl.obolibrary.org/obo/doid#sexually_transmitted_infectious_disease
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['sexually_transmitted_infectious_disease']
+
+ANNOTATION PROPERTY: doid.tick-borne_infectious_disease
+
+	LABEL:          ['tick-borne_infectious_disease']
+	IRI:            http://purl.obolibrary.org/obo/doid#tick-borne_infectious_disease
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['tick-borne_infectious_disease']
+
+ANNOTATION PROPERTY: doid.zoonotic_infectious_disease
+
+	LABEL:          ['zoonotic_infectious_disease']
+	IRI:            http://purl.obolibrary.org/obo/doid#zoonotic_infectious_disease
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        ['zoonotic_infectious_disease']
+
+ANNOTATION PROPERTY: 1.1.date
+
+	LABEL:          ['dc:date']
+	IRI:            http://purl.org/dc/elements/1.1/date
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: 1.1.type
+
+	LABEL:          ['dc:type']
+	IRI:            http://purl.org/dc/elements/1.1/type
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.SubsetProperty
+
+	LABEL:          ['subset_property']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.creation_date
+
+	LABEL:          ['creation_date']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#creation_date
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: oboInOwl.hasAlternativeId
+
+	LABEL:          ['has_alternative_id', 'has_alternative_id']
+	IRI:            http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: core.broadMatch
+
+	LABEL:          ['has broader match']
+	IRI:            http://www.w3.org/2004/02/skos/core#broadMatch
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: core.closeMatch
+
+	LABEL:          ['has close match']
+	IRI:            http://www.w3.org/2004/02/skos/core#closeMatch
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: core.exactMatch
+
+	LABEL:          ['has exact match']
+	IRI:            http://www.w3.org/2004/02/skos/core#exactMatch
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: core.narrowMatch
+
+	LABEL:          ['has narrower match']
+	IRI:            http://www.w3.org/2004/02/skos/core#narrowMatch
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
+ANNOTATION PROPERTY: core.relatedMatch
+
+	LABEL:          ['has related match']
+	IRI:            http://www.w3.org/2004/02/skos/core#relatedMatch
+	DOMAIN:         []
+	RANGE:          []
+	COMMENT:        []
+
