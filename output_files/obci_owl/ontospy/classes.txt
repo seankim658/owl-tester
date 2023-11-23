@@ -1,0 +1,1336 @@
+CLASS #1: <Class *https://www.ncbi.nlm.nih.gov/snp/rs12674822*>
+
+	NAME:           NCBI:snp/rs12674822
+	LABEL:          ANGPT2 polymorphism rs12674822
+	IRI:            https://www.ncbi.nlm.nih.gov/snp/rs12674822
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #2: <Class *http://purl.obolibrary.org/obo/OBCI_0000001*>
+
+	NAME:           obo:OBCI_0000001
+	LABEL:          biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000001
+	DESCRIPTION:    Molecular, histologic, radiographic, or physiologic characteristics are types of biomarkers. A biomarker is not an assessment of how an individual feels, functions, or survives.
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #3: <Class *http://purl.obolibrary.org/obo/OBCI_0000002*>
+
+	NAME:           obo:OBCI_0000002
+	LABEL:          diagnostic biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000002
+	DESCRIPTION:    Per CIVic, such biomarkers can help a clinician diagnose or exclude a particular disease. - For a perfect diagnostic biomarker test, all patients with the disease or disease subset would be detected (100% sensitivity, i.e., the fraction of people with disease who test positive) and no patients without the disease would be diagnosed with the disease (100% specificity, i.e., the fraction of people without the disease who test negative). In practice no biomarker test has perfect clinical and analytical sensitivity and specificity. [NCBI:books/NBK402285]
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #4: <Class *http://purl.obolibrary.org/obo/OBCI_0000003*>
+
+	NAME:           obo:OBCI_0000003
+	LABEL:          monitoring biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000003
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #5: <Class *http://purl.obolibrary.org/obo/OBCI_0000004*>
+
+	NAME:           obo:OBCI_0000004
+	LABEL:          pharmacodynamic/response biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000004
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #6: <Class *http://purl.obolibrary.org/obo/OBCI_0000005*>
+
+	NAME:           obo:OBCI_0000005
+	LABEL:          predictive biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000005
+	DESCRIPTION:    Per CIVic, such biomarkers help predict drug sensitivity or therapeutic response and are valuable in deciding further treatments. Predictive evidence items often explain mechanisms of drug resistance.
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #7: <Class *http://purl.obolibrary.org/obo/OBCI_0000006*>
+
+	NAME:           obo:OBCI_0000006
+	LABEL:          prognostic biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000006
+	DESCRIPTION:    Per CIVic, such biomarkers are those that predict survival outcome.
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #8: <Class *http://purl.obolibrary.org/obo/OBCI_0000007*>
+
+	NAME:           obo:OBCI_0000007
+	LABEL:          safety biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000007
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #9: <Class *http://purl.obolibrary.org/obo/OBCI_0000008*>
+
+	NAME:           obo:OBCI_0000008
+	LABEL:          susceptibility/risk biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000008
+	DESCRIPTION:    Per CIVic, such biomarkers are those that indicate an increased likelihood of developing a particular disease.
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000016
+
+CLASS #10: <Class *http://purl.obolibrary.org/obo/OBCI_0000009*>
+
+	NAME:           obo:OBCI_0000009
+	LABEL:          biomarker of disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000009
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #11: <Class *http://purl.obolibrary.org/obo/OBCI_0000010*>
+
+	NAME:           obo:OBCI_0000010
+	LABEL:          biomarker of COVID-19
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000010
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #12: <Class *http://purl.obolibrary.org/obo/OBCI_0000011*>
+
+	NAME:           obo:OBCI_0000011
+	LABEL:          biomarker of cancer
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000011
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #13: <Class *http://purl.obolibrary.org/obo/OBCI_0000012*>
+
+	NAME:           obo:OBCI_0000012
+	LABEL:          biomarker of exposure
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000012
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #14: <Class *http://purl.obolibrary.org/obo/OBCI_0000013*>
+
+	NAME:           obo:OBCI_0000013
+	LABEL:          urine biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000013
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #15: <Class *http://purl.obolibrary.org/obo/OBCI_0000014*>
+
+	NAME:           obo:OBCI_0000014
+	LABEL:          blood plasma biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000014
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #16: <Class *http://purl.obolibrary.org/obo/OBCI_0000015*>
+
+	NAME:           obo:OBCI_0000015
+	LABEL:          biomarker of medical condition
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000015
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #17: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+
+	NAME:           obo:OBCI_0000016
+	LABEL:          biomarker organized by BEST category
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000016
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000001
+
+CLASS #18: <Class *http://purl.obolibrary.org/obo/OBCI_0000017*>
+
+	NAME:           obo:OBCI_0000017
+	LABEL:          biomarker organized by assessed entity
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000017
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000001
+
+CLASS #19: <Class *http://purl.obolibrary.org/obo/OBCI_0000018*>
+
+	NAME:           obo:OBCI_0000018
+	LABEL:          biomarker organized by clinical focus
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000018
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #20: <Class *http://purl.obolibrary.org/obo/OBCI_0000019*>
+
+	NAME:           obo:OBCI_0000019
+	LABEL:          biomarker organized by specimen source
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000019
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #21: <Class *http://purl.obolibrary.org/obo/OBCI_0000020*>
+
+	NAME:           obo:OBCI_0000020
+	LABEL:          physiological characteristic biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000020
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000017
+
+CLASS #22: <Class *http://purl.obolibrary.org/obo/OBCI_0000021*>
+
+	NAME:           obo:OBCI_0000021
+	LABEL:          cellular biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000021
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000017
+
+CLASS #23: <Class *http://purl.obolibrary.org/obo/OBCI_0000022*>
+
+	NAME:           obo:OBCI_0000022
+	LABEL:          genetic variation biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000022
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000034
+
+CLASS #24: <Class *http://purl.obolibrary.org/obo/OBCI_0000023*>
+
+	NAME:           obo:OBCI_0000023
+	LABEL:          glycan biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000023
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000034
+
+CLASS #25: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+
+	NAME:           obo:OBCI_0000024
+	LABEL:          small molecule biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000024
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000034
+
+CLASS #26: <Class *http://purl.obolibrary.org/obo/OBCI_0000025*>
+
+	NAME:           obo:OBCI_0000025
+	LABEL:          transcript biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000025
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000034
+
+CLASS #27: <Class *http://purl.obolibrary.org/obo/OBCI_0000026*>
+
+	NAME:           obo:OBCI_0000026
+	LABEL:          exhaled breath biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000026
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #28: <Class *http://purl.obolibrary.org/obo/OBCI_0000027*>
+
+	NAME:           obo:OBCI_0000027
+	LABEL:          propanol in exhaled breath above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000027
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #29: <Class *http://purl.obolibrary.org/obo/OBCI_0000028*>
+
+	NAME:           obo:OBCI_0000028
+	LABEL:          ethyl butanoate in exhaled breath above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000028
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #30: <Class *http://purl.obolibrary.org/obo/OBCI_0000029*>
+
+	NAME:           obo:OBCI_0000029
+	LABEL:          blood biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000029
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #31: <Class *http://purl.obolibrary.org/obo/OBCI_0000030*>
+
+	NAME:           obo:OBCI_0000030
+	LABEL:          potassium in blood plasma below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000030
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #32: <Class *http://purl.obolibrary.org/obo/OBCI_0000031*>
+
+	NAME:           obo:OBCI_0000031
+	LABEL:          sodium in blood below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000031
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #33: <Class *http://purl.obolibrary.org/obo/OBCI_0000032*>
+
+	NAME:           obo:OBCI_0000032
+	LABEL:          protein biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000032
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000034
+
+CLASS #34: <Class *http://purl.obolibrary.org/obo/OBCI_0000033*>
+
+	NAME:           obo:OBCI_0000033
+	LABEL:          fibrinogen-to-albumin ratio in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000033
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000032
+
+CLASS #35: <Class *http://purl.obolibrary.org/obo/OBCI_0000034*>
+
+	NAME:           obo:OBCI_0000034
+	LABEL:          molecular biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000034
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000017
+
+CLASS #36: <Class *http://purl.obolibrary.org/obo/OBCI_0000035*>
+
+	NAME:           obo:OBCI_0000035
+	LABEL:          monitoring biomarker - clinical condition
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000035
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000003
+
+CLASS #37: <Class *http://purl.obolibrary.org/obo/OBCI_0000036*>
+
+	NAME:           obo:OBCI_0000036
+	LABEL:          monitoring biomarker - exposure
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000036
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000003
+
+CLASS #38: <Class *http://purl.obolibrary.org/obo/OBCI_0000037*>
+
+	NAME:           obo:OBCI_0000037
+	LABEL:          condition of clinical interest
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000037
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #39: <Class *http://purl.obolibrary.org/obo/OBCI_0000038*>
+
+	NAME:           obo:OBCI_0000038
+	LABEL:          presence of ANGPT2 polymorphism rs12674822
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000038
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000022
+
+CLASS #40: <Class *http://purl.obolibrary.org/obo/OBCI_0000039*>
+
+	NAME:           obo:OBCI_0000039
+	LABEL:          cerebrospinal fluid biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000039
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #41: <Class *http://purl.obolibrary.org/obo/OBCI_0000040*>
+
+	NAME:           obo:OBCI_0000040
+	LABEL:          potassium in urine below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000040
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #42: <Class *http://purl.obolibrary.org/obo/OBCI_0000041*>
+
+	NAME:           obo:OBCI_0000041
+	LABEL:          biomarker of respiratory system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000041
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #43: <Class *http://purl.obolibrary.org/obo/OBCI_0000042*>
+
+	NAME:           obo:OBCI_0000042
+	LABEL:          biomarker of cognitive disorder
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000042
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #44: <Class *http://purl.obolibrary.org/obo/OBCI_0000043*>
+
+	NAME:           obo:OBCI_0000043
+	LABEL:          biomarker of disease by infectious agent
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000043
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #45: <Class *http://purl.obolibrary.org/obo/OBCI_0000044*>
+
+	NAME:           obo:OBCI_0000044
+	LABEL:          biomarker of disease of anatomical entity
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000044
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #46: <Class *http://purl.obolibrary.org/obo/OBCI_0000045*>
+
+	NAME:           obo:OBCI_0000045
+	LABEL:          biomarker of cardiovascular system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000045
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #47: <Class *http://purl.obolibrary.org/obo/OBCI_0000046*>
+
+	NAME:           obo:OBCI_0000046
+	LABEL:          biomarker of endocrine system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000046
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #48: <Class *http://purl.obolibrary.org/obo/OBCI_0000047*>
+
+	NAME:           obo:OBCI_0000047
+	LABEL:          biomarker of gastrointestinal system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000047
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #49: <Class *http://purl.obolibrary.org/obo/OBCI_0000048*>
+
+	NAME:           obo:OBCI_0000048
+	LABEL:          biomarker of hematopoietic system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000048
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #50: <Class *http://purl.obolibrary.org/obo/OBCI_0000049*>
+
+	NAME:           obo:OBCI_0000049
+	LABEL:          biomarker of immune system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000049
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #51: <Class *http://purl.obolibrary.org/obo/OBCI_0000050*>
+
+	NAME:           obo:OBCI_0000050
+	LABEL:          biomarker of integumentary system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000050
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #52: <Class *http://purl.obolibrary.org/obo/OBCI_0000051*>
+
+	NAME:           obo:OBCI_0000051
+	LABEL:          biomarker of musculoskeletal system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000051
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #53: <Class *http://purl.obolibrary.org/obo/OBCI_0000052*>
+
+	NAME:           obo:OBCI_0000052
+	LABEL:          biomarker of nervous system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000052
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #54: <Class *http://purl.obolibrary.org/obo/OBCI_0000053*>
+
+	NAME:           obo:OBCI_0000053
+	LABEL:          biomarker of reproductive system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000053
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #55: <Class *http://purl.obolibrary.org/obo/OBCI_0000054*>
+
+	NAME:           obo:OBCI_0000054
+	LABEL:          biomarker of thoracic disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000054
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #56: <Class *http://purl.obolibrary.org/obo/OBCI_0000055*>
+
+	NAME:           obo:OBCI_0000055
+	LABEL:          biomarker of urinary system disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000055
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #57: <Class *http://purl.obolibrary.org/obo/OBCI_0000056*>
+
+	NAME:           obo:OBCI_0000056
+	LABEL:          biomarker of disease of cellular proliferation
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000056
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #58: <Class *http://purl.obolibrary.org/obo/OBCI_0000057*>
+
+	NAME:           obo:OBCI_0000057
+	LABEL:          biomarker of disease of metabolism
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000057
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #59: <Class *http://purl.obolibrary.org/obo/OBCI_0000058*>
+
+	NAME:           obo:OBCI_0000058
+	LABEL:          biomarker of genetic disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000058
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #60: <Class *http://purl.obolibrary.org/obo/OBCI_0000059*>
+
+	NAME:           obo:OBCI_0000059
+	LABEL:          saliva biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000059
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #61: <Class *http://purl.obolibrary.org/obo/OBCI_0000060*>
+
+	NAME:           obo:OBCI_0000060
+	LABEL:          neutrophil-to-lymphocyte ratio in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000060
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000021
+
+CLASS #62: <Class *http://purl.obolibrary.org/obo/OBCI_0000061*>
+
+	NAME:           obo:OBCI_0000061
+	LABEL:          neuron-specific enolase in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000061
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000032
+
+CLASS #63: <Class *http://purl.obolibrary.org/obo/OBCI_0000062*>
+
+	NAME:           obo:OBCI_0000062
+	LABEL:          soluble urokinase plasminogen activator receptor in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000062
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000032
+
+CLASS #64: <Class *http://purl.obolibrary.org/obo/OBCI_0000063*>
+
+	NAME:           obo:OBCI_0000063
+	LABEL:          biomarker of phenotypic abnormality
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000063
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #65: <Class *http://purl.obolibrary.org/obo/OBCI_0000065*>
+
+	NAME:           obo:OBCI_0000065
+	LABEL:          exposure agent
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000065
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #66: <Class *http://purl.obolibrary.org/obo/OBCI_0000066*>
+
+	NAME:           obo:OBCI_0000066
+	LABEL:          voice biomarker
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000066
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000020
+
+CLASS #67: <Class *http://purl.obolibrary.org/obo/OBCI_0000067*>
+
+	NAME:           obo:OBCI_0000067
+	LABEL:          biomarker of lysinuric protein intolerance
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000067
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #68: <Class *http://purl.obolibrary.org/obo/OBCI_0000068*>
+
+	NAME:           obo:OBCI_0000068
+	LABEL:          biomarker of sepiapterin reductase deficiency
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000068
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #69: <Class *http://purl.obolibrary.org/obo/OBCI_0000069*>
+
+	NAME:           obo:OBCI_0000069
+	LABEL:          biomarker of celiac disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000069
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #70: <Class *http://purl.obolibrary.org/obo/OBCI_0000070*>
+
+	NAME:           obo:OBCI_0000070
+	LABEL:          biomarker of nephrotic syndrome
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000070
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #71: <Class *http://purl.obolibrary.org/obo/OBCI_0000071*>
+
+	NAME:           obo:OBCI_0000071
+	LABEL:          biomarker of malaria
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000071
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #72: <Class *http://purl.obolibrary.org/obo/OBCI_0000072*>
+
+	NAME:           obo:OBCI_0000072
+	LABEL:          biomarker of lung cancer
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000072
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #73: <Class *http://purl.obolibrary.org/obo/OBCI_0000073*>
+
+	NAME:           obo:OBCI_0000073
+	LABEL:          biomarker of porphyria
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000073
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #74: <Class *http://purl.obolibrary.org/obo/OBCI_0000074*>
+
+	NAME:           obo:OBCI_0000074
+	LABEL:          biomarker of hepatic encephalopathy
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000074
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #75: <Class *http://purl.obolibrary.org/obo/OBCI_0000075*>
+
+	NAME:           obo:OBCI_0000075
+	LABEL:          biomarker of hypothyroidism
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000075
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #76: <Class *http://purl.obolibrary.org/obo/OBCI_0000076*>
+
+	NAME:           obo:OBCI_0000076
+	LABEL:          biomarker of cystic fibrosis
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000076
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #77: <Class *http://purl.obolibrary.org/obo/OBCI_0000077*>
+
+	NAME:           obo:OBCI_0000077
+	LABEL:          biomarker of epilepsy
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000077
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #78: <Class *http://purl.obolibrary.org/obo/OBCI_0000078*>
+
+	NAME:           obo:OBCI_0000078
+	LABEL:          biomarker of motor neuron disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000078
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #79: <Class *http://purl.obolibrary.org/obo/OBCI_0000079*>
+
+	NAME:           obo:OBCI_0000079
+	LABEL:          biomarker of asthma
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000079
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #80: <Class *http://purl.obolibrary.org/obo/OBCI_0000080*>
+
+	NAME:           obo:OBCI_0000080
+	LABEL:          biomarker of pulmonary tuberculosis
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000080
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #81: <Class *http://purl.obolibrary.org/obo/OBCI_0000081*>
+
+	NAME:           obo:OBCI_0000081
+	LABEL:          biomarker of mastocytosis
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000081
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #82: <Class *http://purl.obolibrary.org/obo/OBCI_0000082*>
+
+	NAME:           obo:OBCI_0000082
+	LABEL:          biomarker of liver disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000082
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #83: <Class *http://purl.obolibrary.org/obo/OBCI_0000083*>
+
+	NAME:           obo:OBCI_0000083
+	LABEL:          biomarker of uremia
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000083
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #84: <Class *http://purl.obolibrary.org/obo/OBCI_0000084*>
+
+	NAME:           obo:OBCI_0000084
+	LABEL:          biomarker of human immunodeficiency virus infectious disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000084
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #85: <Class *http://purl.obolibrary.org/obo/OBCI_0000085*>
+
+	NAME:           obo:OBCI_0000085
+	LABEL:          biomarker of prolactinoma
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000085
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #86: <Class *http://purl.obolibrary.org/obo/OBCI_0000086*>
+
+	NAME:           obo:OBCI_0000086
+	LABEL:          biomarker of schizophrenia
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000086
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #87: <Class *http://purl.obolibrary.org/obo/OBCI_0000087*>
+
+	NAME:           obo:OBCI_0000087
+	LABEL:          biomarker of rheumatoid arthritis
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000087
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #88: <Class *http://purl.obolibrary.org/obo/OBCI_0000088*>
+
+	NAME:           obo:OBCI_0000088
+	LABEL:          biomarker of chronic kidney disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000088
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #89: <Class *http://purl.obolibrary.org/obo/OBCI_0000089*>
+
+	NAME:           obo:OBCI_0000089
+	LABEL:          biomarker of hyperthyroidism
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000089
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #90: <Class *http://purl.obolibrary.org/obo/OBCI_0000090*>
+
+	NAME:           obo:OBCI_0000090
+	LABEL:          biomarker of autosomal dominant polycystic kidney disease
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000090
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #91: <Class *http://purl.obolibrary.org/obo/OBCI_0000091*>
+
+	NAME:           obo:OBCI_0000091
+	LABEL:          biomarker of colorectal cancer
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000091
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #92: <Class *http://purl.obolibrary.org/obo/OBCI_0000092*>
+
+	NAME:           obo:OBCI_0000092
+	LABEL:          biomarker of meningitis
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000092
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #93: <Class *http://purl.obolibrary.org/obo/OBCI_0000093*>
+
+	NAME:           obo:OBCI_0000093
+	LABEL:          L-alanine in cerebrospinal fluid below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000093
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #94: <Class *http://purl.obolibrary.org/obo/OBCI_0000094*>
+
+	NAME:           obo:OBCI_0000094
+	LABEL:          4-hydroxynonenal in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000094
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #95: <Class *http://purl.obolibrary.org/obo/OBCI_0000095*>
+
+	NAME:           obo:OBCI_0000095
+	LABEL:          4-heptanone in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000095
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #96: <Class *http://purl.obolibrary.org/obo/OBCI_0000096*>
+
+	NAME:           obo:OBCI_0000096
+	LABEL:          D-pipecolic acid in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000096
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #97: <Class *http://purl.obolibrary.org/obo/OBCI_0000097*>
+
+	NAME:           obo:OBCI_0000097
+	LABEL:          hexanal in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000097
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #98: <Class *http://purl.obolibrary.org/obo/OBCI_0000098*>
+
+	NAME:           obo:OBCI_0000098
+	LABEL:          malonaldehyde in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000098
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #99: <Class *http://purl.obolibrary.org/obo/OBCI_0000099*>
+
+	NAME:           obo:OBCI_0000099
+	LABEL:          phenylacetic acid in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000099
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #100: <Class *http://purl.obolibrary.org/obo/OBCI_0000100*>
+
+	NAME:           obo:OBCI_0000100
+	LABEL:          phenol in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000100
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #101: <Class *http://purl.obolibrary.org/obo/OBCI_0000101*>
+
+	NAME:           obo:OBCI_0000101
+	LABEL:          sepiapterin in cerebrospinal fluid above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000101
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #102: <Class *http://purl.obolibrary.org/obo/OBCI_0000102*>
+
+	NAME:           obo:OBCI_0000102
+	LABEL:          porphobilinogen in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000102
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #103: <Class *http://purl.obolibrary.org/obo/OBCI_0000103*>
+
+	NAME:           obo:OBCI_0000103
+	LABEL:          porphobilinogen in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000103
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #104: <Class *http://purl.obolibrary.org/obo/OBCI_0000104*>
+
+	NAME:           obo:OBCI_0000104
+	LABEL:          glucitol in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000104
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #105: <Class *http://purl.obolibrary.org/obo/OBCI_0000105*>
+
+	NAME:           obo:OBCI_0000105
+	LABEL:          allantoin in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000105
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #106: <Class *http://purl.obolibrary.org/obo/OBCI_0000106*>
+
+	NAME:           obo:OBCI_0000106
+	LABEL:          allantoin in cerebrospinal fluid above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000106
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #107: <Class *http://purl.obolibrary.org/obo/OBCI_0000107*>
+
+	NAME:           obo:OBCI_0000107
+	LABEL:          6,7-dihydrobiopterin in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000107
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #108: <Class *http://purl.obolibrary.org/obo/OBCI_0000108*>
+
+	NAME:           obo:OBCI_0000108
+	LABEL:          L-arginine in blood below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000108
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #109: <Class *http://purl.obolibrary.org/obo/OBCI_0000109*>
+
+	NAME:           obo:OBCI_0000109
+	LABEL:          ascorbic acid in cerebrospinal fluid below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000109
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #110: <Class *http://purl.obolibrary.org/obo/OBCI_0000110*>
+
+	NAME:           obo:OBCI_0000110
+	LABEL:          lactulose in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000110
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #111: <Class *http://purl.obolibrary.org/obo/OBCI_0000111*>
+
+	NAME:           obo:OBCI_0000111
+	LABEL:          lithocholic acid in blood below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000111
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #112: <Class *http://purl.obolibrary.org/obo/OBCI_0000112*>
+
+	NAME:           obo:OBCI_0000112
+	LABEL:          mannitol in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000112
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #113: <Class *http://purl.obolibrary.org/obo/OBCI_0000113*>
+
+	NAME:           obo:OBCI_0000113
+	LABEL:          creatine in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000113
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #114: <Class *http://purl.obolibrary.org/obo/OBCI_0000114*>
+
+	NAME:           obo:OBCI_0000114
+	LABEL:          1,7-dimethyluric acid in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000114
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #115: <Class *http://purl.obolibrary.org/obo/OBCI_0000115*>
+
+	NAME:           obo:OBCI_0000115
+	LABEL:          N(tele)-methylhistamine in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000115
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #116: <Class *http://purl.obolibrary.org/obo/OBCI_0000116*>
+
+	NAME:           obo:OBCI_0000116
+	LABEL:          trimethylamine N-oxide in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000116
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #117: <Class *http://purl.obolibrary.org/obo/OBCI_0000117*>
+
+	NAME:           obo:OBCI_0000117
+	LABEL:          ursodeoxycholic acid in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000117
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #118: <Class *http://purl.obolibrary.org/obo/OBCI_0000118*>
+
+	NAME:           obo:OBCI_0000118
+	LABEL:          2-methoxyestrone in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000118
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #119: <Class *http://purl.obolibrary.org/obo/OBCI_0000119*>
+
+	NAME:           obo:OBCI_0000119
+	LABEL:          25-hydroxyvitamin D2 in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000119
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #120: <Class *http://purl.obolibrary.org/obo/OBCI_0000120*>
+
+	NAME:           obo:OBCI_0000120
+	LABEL:          thiocyanate in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000120
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #121: <Class *http://purl.obolibrary.org/obo/OBCI_0000121*>
+
+	NAME:           obo:OBCI_0000121
+	LABEL:          1-methylguanosine in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000121
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #122: <Class *http://purl.obolibrary.org/obo/OBCI_0000122*>
+
+	NAME:           obo:OBCI_0000122
+	LABEL:          p-cresol in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000122
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #123: <Class *http://purl.obolibrary.org/obo/OBCI_0000123*>
+
+	NAME:           obo:OBCI_0000123
+	LABEL:          gamma-aminobutyric acid in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000123
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #124: <Class *http://purl.obolibrary.org/obo/OBCI_0000124*>
+
+	NAME:           obo:OBCI_0000124
+	LABEL:          theophylline in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000124
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #125: <Class *http://purl.obolibrary.org/obo/OBCI_0000125*>
+
+	NAME:           obo:OBCI_0000125
+	LABEL:          3-nitrotyrosine in cerebrospinal fluid above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000125
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #126: <Class *http://purl.obolibrary.org/obo/OBCI_0000126*>
+
+	NAME:           obo:OBCI_0000126
+	LABEL:          vasopressin in cerebrospinal fluid above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000126
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #127: <Class *http://purl.obolibrary.org/obo/OBCI_0000127*>
+
+	NAME:           obo:OBCI_0000127
+	LABEL:          glycocholic acid in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000127
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #128: <Class *http://purl.obolibrary.org/obo/OBCI_0000128*>
+
+	NAME:           obo:OBCI_0000128
+	LABEL:          1-methylinosine in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000128
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #129: <Class *http://purl.obolibrary.org/obo/OBCI_0000129*>
+
+	NAME:           obo:OBCI_0000129
+	LABEL:          thyroxine sulfate in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000129
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #130: <Class *http://purl.obolibrary.org/obo/OBCI_0000130*>
+
+	NAME:           obo:OBCI_0000130
+	LABEL:          1-methyl-4-imidazoleacetic acid in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000130
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #131: <Class *http://purl.obolibrary.org/obo/OBCI_0000131*>
+
+	NAME:           obo:OBCI_0000131
+	LABEL:          theobromine in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000131
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #132: <Class *http://purl.obolibrary.org/obo/OBCI_0000132*>
+
+	NAME:           obo:OBCI_0000132
+	LABEL:          methanethiol in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000132
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #133: <Class *http://purl.obolibrary.org/obo/OBCI_0000133*>
+
+	NAME:           obo:OBCI_0000133
+	LABEL:          D-serine in urine below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000133
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #134: <Class *http://purl.obolibrary.org/obo/OBCI_0000134*>
+
+	NAME:           obo:OBCI_0000134
+	LABEL:          4-guanidinobutanoic acid in blood above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000134
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #135: <Class *http://purl.obolibrary.org/obo/OBCI_0000135*>
+
+	NAME:           obo:OBCI_0000135
+	LABEL:          3,5-diiodo-L-tyrosine in urine above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000135
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #136: <Class *http://purl.obolibrary.org/obo/OBCI_0000136*>
+
+	NAME:           obo:OBCI_0000136
+	LABEL:          calcidiol in urine below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000136
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #137: <Class *http://purl.obolibrary.org/obo/OBCI_0000137*>
+
+	NAME:           obo:OBCI_0000137
+	LABEL:          heptan-2-one in cerebrospinal fluid above normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000137
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #138: <Class *http://purl.obolibrary.org/obo/OBCI_0000138*>
+
+	NAME:           obo:OBCI_0000138
+	LABEL:          anandamide in cerebrospinal fluid below normal
+	IRI:            http://purl.obolibrary.org/obo/OBCI_0000138
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+		1:   obo:OBCI_0000024
+
+CLASS #139: <Class *http://purl.obolibrary.org/obo/OBCI_3000004*>
+
+	NAME:           obo:OBCI_3000004
+	LABEL:          neutrophil-to-lymphocyte ratio
+	IRI:            http://purl.obolibrary.org/obo/OBCI_3000004
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+
+CLASS #140: <Class *http://purl.obolibrary.org/obo/OBCI_3000005*>
+
+	NAME:           obo:OBCI_3000005
+	LABEL:          fibrinogen-to-albumin ratio
+	IRI:            http://purl.obolibrary.org/obo/OBCI_3000005
+	DESCRIPTION:    
+	RDFTYPE QNAME:  owl:Class
+	PARENTS:
+

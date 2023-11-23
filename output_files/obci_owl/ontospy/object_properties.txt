@@ -1,0 +1,210 @@
+OBJECT PROPERTY #1: <Property *http://purl.obolibrary.org/obo/OBCI_1000001*>
+
+	NAME:         obo:OBCI_1000001
+	LABEL:        provides_clinical_information_for
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000001
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #2: <Property *http://purl.obolibrary.org/obo/OBCI_1000002*>
+
+	NAME:         obo:OBCI_1000002
+	LABEL:        diagnostic_for
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000002
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000037']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #3: <Property *http://purl.obolibrary.org/obo/OBCI_1000003*>
+
+	NAME:         obo:OBCI_1000003
+	LABEL:        monitors_status_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000003
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000037']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #4: <Property *http://purl.obolibrary.org/obo/OBCI_1000004*>
+
+	NAME:         obo:OBCI_1000004
+	LABEL:        indicates_response_to_exposure_to
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000004
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000065']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #5: <Property *http://purl.obolibrary.org/obo/OBCI_1000005*>
+
+	NAME:         obo:OBCI_1000005
+	LABEL:        predicts_effect_of_exposure_to
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000005
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000065']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #6: <Property *http://purl.obolibrary.org/obo/OBCI_1000006*>
+
+	NAME:         obo:OBCI_1000006
+	LABEL:        prognostic_for
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000006
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000037']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #7: <Property *http://purl.obolibrary.org/obo/OBCI_1000007*>
+
+	NAME:         obo:OBCI_1000007
+	LABEL:        assesses_toxicity_of_exposure_to
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000007
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000065']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #8: <Property *http://purl.obolibrary.org/obo/OBCI_1000008*>
+
+	NAME:         obo:OBCI_1000008
+	LABEL:        indicates_risk_of_developing
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000008
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000037']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #9: <Property *http://purl.obolibrary.org/obo/OBCI_1000009*>
+
+	NAME:         obo:OBCI_1000009
+	LABEL:        indicated_by_above_normal_level_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000009
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #10: <Property *http://purl.obolibrary.org/obo/OBCI_1000010*>
+
+	NAME:         obo:OBCI_1000010
+	LABEL:        indicates_clinical_effect_of_exposure_to
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000010
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #11: <Property *http://purl.obolibrary.org/obo/OBCI_1000011*>
+
+	NAME:         obo:OBCI_1000011
+	LABEL:        has_BEST_classification
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000011
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #12: <Property *http://purl.obolibrary.org/obo/OBCI_1000012*>
+
+	NAME:         obo:OBCI_1000012
+	LABEL:        has_CIViC_classification
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000012
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #13: <Property *http://purl.obolibrary.org/obo/OBCI_1000013*>
+
+	NAME:         obo:OBCI_1000013
+	LABEL:        monitors_effect_of_exposure_to
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000013
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        ['obo:OBCI_0000065']
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #14: <Property *http://purl.obolibrary.org/obo/OBCI_1000014*>
+
+	NAME:         obo:OBCI_1000014
+	LABEL:        indicated_by_difference_in_level_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000014
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #15: <Property *http://purl.obolibrary.org/obo/OBCI_1000015*>
+
+	NAME:         obo:OBCI_1000015
+	LABEL:        indicated_by_below_normal_level_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000015
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #16: <Property *http://purl.obolibrary.org/obo/OBCI_1000016*>
+
+	NAME:         obo:OBCI_1000016
+	LABEL:        indicated_by_presence_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000016
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #17: <Property *http://purl.obolibrary.org/obo/OBCI_1000017*>
+
+	NAME:         obo:OBCI_1000017
+	LABEL:        indicated_by_absence_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000017
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #18: <Property *http://purl.obolibrary.org/obo/OBCI_1000018*>
+
+	NAME:         obo:OBCI_1000018
+	LABEL:        determined_using_sample_from
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000018
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #19: <Property *http://purl.obolibrary.org/obo/OBCI_1000019*>
+
+	NAME:         obo:OBCI_1000019
+	LABEL:        concentration_of
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000019
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #20: <Property *http://purl.obolibrary.org/obo/OBCI_1000021*>
+
+	NAME:         obo:OBCI_1000021
+	LABEL:        has_denominator
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000021
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+
+OBJECT PROPERTY #21: <Property *http://purl.obolibrary.org/obo/OBCI_1000022*>
+
+	NAME:         obo:OBCI_1000022
+	LABEL:        has_numerator
+	IRI:          http://purl.obolibrary.org/obo/OBCI_1000022
+	DESCRIPTION:  
+	DOMAIN:       []
+	RANGE:        []
+	RDFTYPE:      http://www.w3.org/2002/07/owl#ObjectProperty
+

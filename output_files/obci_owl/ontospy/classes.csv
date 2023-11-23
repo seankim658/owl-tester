@@ -1,0 +1,141 @@
+class,name,iri,description,rdftype_qname,parents
+<Class *https://www.ncbi.nlm.nih.gov/snp/rs12674822*>,NCBI:snp/rs12674822,ANGPT2 polymorphism rs12674822,https://www.ncbi.nlm.nih.gov/snp/rs12674822,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000001*>,obo:OBCI_0000001,biomarker,http://purl.obolibrary.org/obo/OBCI_0000001,"Molecular, histologic, radiographic, or physiologic characteristics are types of biomarkers. A biomarker is not an assessment of how an individual feels, functions, or survives.",owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000002*>,obo:OBCI_0000002,diagnostic biomarker,http://purl.obolibrary.org/obo/OBCI_0000002,"Per CIVic, such biomarkers can help a clinician diagnose or exclude a particular disease. - For a perfect diagnostic biomarker test, all patients with the disease or disease subset would be detected (100% sensitivity, i.e., the fraction of people with disease who test positive) and no patients without the disease would be diagnosed with the disease (100% specificity, i.e., the fraction of people without the disease who test negative). In practice no biomarker test has perfect clinical and analytical sensitivity and specificity. [NCBI:books/NBK402285]",owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000003*>,obo:OBCI_0000003,monitoring biomarker,http://purl.obolibrary.org/obo/OBCI_0000003,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000004*>,obo:OBCI_0000004,pharmacodynamic/response biomarker,http://purl.obolibrary.org/obo/OBCI_0000004,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000005*>,obo:OBCI_0000005,predictive biomarker,http://purl.obolibrary.org/obo/OBCI_0000005,"Per CIVic, such biomarkers help predict drug sensitivity or therapeutic response and are valuable in deciding further treatments. Predictive evidence items often explain mechanisms of drug resistance.",owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000006*>,obo:OBCI_0000006,prognostic biomarker,http://purl.obolibrary.org/obo/OBCI_0000006,"Per CIVic, such biomarkers are those that predict survival outcome.",owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000007*>,obo:OBCI_0000007,safety biomarker,http://purl.obolibrary.org/obo/OBCI_0000007,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000008*>,obo:OBCI_0000008,susceptibility/risk biomarker,http://purl.obolibrary.org/obo/OBCI_0000008,"Per CIVic, such biomarkers are those that indicate an increased likelihood of developing a particular disease.",owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000016*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000009*>,obo:OBCI_0000009,biomarker of disease,http://purl.obolibrary.org/obo/OBCI_0000009,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000010*>,obo:OBCI_0000010,biomarker of COVID-19,http://purl.obolibrary.org/obo/OBCI_0000010,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000011*>,obo:OBCI_0000011,biomarker of cancer,http://purl.obolibrary.org/obo/OBCI_0000011,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000012*>,obo:OBCI_0000012,biomarker of exposure,http://purl.obolibrary.org/obo/OBCI_0000012,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000013*>,obo:OBCI_0000013,urine biomarker,http://purl.obolibrary.org/obo/OBCI_0000013,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000014*>,obo:OBCI_0000014,blood plasma biomarker,http://purl.obolibrary.org/obo/OBCI_0000014,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000015*>,obo:OBCI_0000015,biomarker of medical condition,http://purl.obolibrary.org/obo/OBCI_0000015,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000016*>,obo:OBCI_0000016,biomarker organized by BEST category,http://purl.obolibrary.org/obo/OBCI_0000016,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000001*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000017*>,obo:OBCI_0000017,biomarker organized by assessed entity,http://purl.obolibrary.org/obo/OBCI_0000017,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000001*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000018*>,obo:OBCI_0000018,biomarker organized by clinical focus,http://purl.obolibrary.org/obo/OBCI_0000018,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000019*>,obo:OBCI_0000019,biomarker organized by specimen source,http://purl.obolibrary.org/obo/OBCI_0000019,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000020*>,obo:OBCI_0000020,physiological characteristic biomarker,http://purl.obolibrary.org/obo/OBCI_0000020,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000017*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000021*>,obo:OBCI_0000021,cellular biomarker,http://purl.obolibrary.org/obo/OBCI_0000021,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000017*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000022*>,obo:OBCI_0000022,genetic variation biomarker,http://purl.obolibrary.org/obo/OBCI_0000022,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000034*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000023*>,obo:OBCI_0000023,glycan biomarker,http://purl.obolibrary.org/obo/OBCI_0000023,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000034*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000024*>,obo:OBCI_0000024,small molecule biomarker,http://purl.obolibrary.org/obo/OBCI_0000024,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000034*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000025*>,obo:OBCI_0000025,transcript biomarker,http://purl.obolibrary.org/obo/OBCI_0000025,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000034*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000026*>,obo:OBCI_0000026,exhaled breath biomarker,http://purl.obolibrary.org/obo/OBCI_0000026,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000027*>,obo:OBCI_0000027,propanol in exhaled breath above normal,http://purl.obolibrary.org/obo/OBCI_0000027,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000028*>,obo:OBCI_0000028,ethyl butanoate in exhaled breath above normal,http://purl.obolibrary.org/obo/OBCI_0000028,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000029*>,obo:OBCI_0000029,blood biomarker,http://purl.obolibrary.org/obo/OBCI_0000029,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000030*>,obo:OBCI_0000030,potassium in blood plasma below normal,http://purl.obolibrary.org/obo/OBCI_0000030,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000031*>,obo:OBCI_0000031,sodium in blood below normal,http://purl.obolibrary.org/obo/OBCI_0000031,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000032*>,obo:OBCI_0000032,protein biomarker,http://purl.obolibrary.org/obo/OBCI_0000032,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000034*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000033*>,obo:OBCI_0000033,fibrinogen-to-albumin ratio in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000033,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000032*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000034*>,obo:OBCI_0000034,molecular biomarker,http://purl.obolibrary.org/obo/OBCI_0000034,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000017*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000035*>,obo:OBCI_0000035,monitoring biomarker - clinical condition,http://purl.obolibrary.org/obo/OBCI_0000035,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000003*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000036*>,obo:OBCI_0000036,monitoring biomarker - exposure,http://purl.obolibrary.org/obo/OBCI_0000036,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000003*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000037*>,obo:OBCI_0000037,condition of clinical interest,http://purl.obolibrary.org/obo/OBCI_0000037,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000038*>,obo:OBCI_0000038,presence of ANGPT2 polymorphism rs12674822,http://purl.obolibrary.org/obo/OBCI_0000038,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000022*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000039*>,obo:OBCI_0000039,cerebrospinal fluid biomarker,http://purl.obolibrary.org/obo/OBCI_0000039,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000040*>,obo:OBCI_0000040,potassium in urine below normal,http://purl.obolibrary.org/obo/OBCI_0000040,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000041*>,obo:OBCI_0000041,biomarker of respiratory system disease,http://purl.obolibrary.org/obo/OBCI_0000041,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000042*>,obo:OBCI_0000042,biomarker of cognitive disorder,http://purl.obolibrary.org/obo/OBCI_0000042,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000043*>,obo:OBCI_0000043,biomarker of disease by infectious agent,http://purl.obolibrary.org/obo/OBCI_0000043,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000044*>,obo:OBCI_0000044,biomarker of disease of anatomical entity,http://purl.obolibrary.org/obo/OBCI_0000044,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000045*>,obo:OBCI_0000045,biomarker of cardiovascular system disease,http://purl.obolibrary.org/obo/OBCI_0000045,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000046*>,obo:OBCI_0000046,biomarker of endocrine system disease,http://purl.obolibrary.org/obo/OBCI_0000046,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000047*>,obo:OBCI_0000047,biomarker of gastrointestinal system disease,http://purl.obolibrary.org/obo/OBCI_0000047,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000048*>,obo:OBCI_0000048,biomarker of hematopoietic system disease,http://purl.obolibrary.org/obo/OBCI_0000048,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000049*>,obo:OBCI_0000049,biomarker of immune system disease,http://purl.obolibrary.org/obo/OBCI_0000049,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000050*>,obo:OBCI_0000050,biomarker of integumentary system disease,http://purl.obolibrary.org/obo/OBCI_0000050,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000051*>,obo:OBCI_0000051,biomarker of musculoskeletal system disease,http://purl.obolibrary.org/obo/OBCI_0000051,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000052*>,obo:OBCI_0000052,biomarker of nervous system disease,http://purl.obolibrary.org/obo/OBCI_0000052,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000053*>,obo:OBCI_0000053,biomarker of reproductive system disease,http://purl.obolibrary.org/obo/OBCI_0000053,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000054*>,obo:OBCI_0000054,biomarker of thoracic disease,http://purl.obolibrary.org/obo/OBCI_0000054,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000055*>,obo:OBCI_0000055,biomarker of urinary system disease,http://purl.obolibrary.org/obo/OBCI_0000055,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000056*>,obo:OBCI_0000056,biomarker of disease of cellular proliferation,http://purl.obolibrary.org/obo/OBCI_0000056,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000057*>,obo:OBCI_0000057,biomarker of disease of metabolism,http://purl.obolibrary.org/obo/OBCI_0000057,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000058*>,obo:OBCI_0000058,biomarker of genetic disease,http://purl.obolibrary.org/obo/OBCI_0000058,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000059*>,obo:OBCI_0000059,saliva biomarker,http://purl.obolibrary.org/obo/OBCI_0000059,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000060*>,obo:OBCI_0000060,neutrophil-to-lymphocyte ratio in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000060,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000021*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000061*>,obo:OBCI_0000061,neuron-specific enolase in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000061,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000032*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000062*>,obo:OBCI_0000062,soluble urokinase plasminogen activator receptor in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000062,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000032*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000063*>,obo:OBCI_0000063,biomarker of phenotypic abnormality,http://purl.obolibrary.org/obo/OBCI_0000063,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000065*>,obo:OBCI_0000065,exposure agent,http://purl.obolibrary.org/obo/OBCI_0000065,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000066*>,obo:OBCI_0000066,voice biomarker,http://purl.obolibrary.org/obo/OBCI_0000066,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000020*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000067*>,obo:OBCI_0000067,biomarker of lysinuric protein intolerance,http://purl.obolibrary.org/obo/OBCI_0000067,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000068*>,obo:OBCI_0000068,biomarker of sepiapterin reductase deficiency,http://purl.obolibrary.org/obo/OBCI_0000068,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000069*>,obo:OBCI_0000069,biomarker of celiac disease,http://purl.obolibrary.org/obo/OBCI_0000069,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000070*>,obo:OBCI_0000070,biomarker of nephrotic syndrome,http://purl.obolibrary.org/obo/OBCI_0000070,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000071*>,obo:OBCI_0000071,biomarker of malaria,http://purl.obolibrary.org/obo/OBCI_0000071,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000072*>,obo:OBCI_0000072,biomarker of lung cancer,http://purl.obolibrary.org/obo/OBCI_0000072,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000073*>,obo:OBCI_0000073,biomarker of porphyria,http://purl.obolibrary.org/obo/OBCI_0000073,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000074*>,obo:OBCI_0000074,biomarker of hepatic encephalopathy,http://purl.obolibrary.org/obo/OBCI_0000074,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000075*>,obo:OBCI_0000075,biomarker of hypothyroidism,http://purl.obolibrary.org/obo/OBCI_0000075,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000076*>,obo:OBCI_0000076,biomarker of cystic fibrosis,http://purl.obolibrary.org/obo/OBCI_0000076,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000077*>,obo:OBCI_0000077,biomarker of epilepsy,http://purl.obolibrary.org/obo/OBCI_0000077,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000078*>,obo:OBCI_0000078,biomarker of motor neuron disease,http://purl.obolibrary.org/obo/OBCI_0000078,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000079*>,obo:OBCI_0000079,biomarker of asthma,http://purl.obolibrary.org/obo/OBCI_0000079,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000080*>,obo:OBCI_0000080,biomarker of pulmonary tuberculosis,http://purl.obolibrary.org/obo/OBCI_0000080,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000081*>,obo:OBCI_0000081,biomarker of mastocytosis,http://purl.obolibrary.org/obo/OBCI_0000081,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000082*>,obo:OBCI_0000082,biomarker of liver disease,http://purl.obolibrary.org/obo/OBCI_0000082,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000083*>,obo:OBCI_0000083,biomarker of uremia,http://purl.obolibrary.org/obo/OBCI_0000083,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000084*>,obo:OBCI_0000084,biomarker of human immunodeficiency virus infectious disease,http://purl.obolibrary.org/obo/OBCI_0000084,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000085*>,obo:OBCI_0000085,biomarker of prolactinoma,http://purl.obolibrary.org/obo/OBCI_0000085,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000086*>,obo:OBCI_0000086,biomarker of schizophrenia,http://purl.obolibrary.org/obo/OBCI_0000086,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000087*>,obo:OBCI_0000087,biomarker of rheumatoid arthritis,http://purl.obolibrary.org/obo/OBCI_0000087,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000088*>,obo:OBCI_0000088,biomarker of chronic kidney disease,http://purl.obolibrary.org/obo/OBCI_0000088,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000089*>,obo:OBCI_0000089,biomarker of hyperthyroidism,http://purl.obolibrary.org/obo/OBCI_0000089,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000090*>,obo:OBCI_0000090,biomarker of autosomal dominant polycystic kidney disease,http://purl.obolibrary.org/obo/OBCI_0000090,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000091*>,obo:OBCI_0000091,biomarker of colorectal cancer,http://purl.obolibrary.org/obo/OBCI_0000091,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000092*>,obo:OBCI_0000092,biomarker of meningitis,http://purl.obolibrary.org/obo/OBCI_0000092,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_0000093*>,obo:OBCI_0000093,L-alanine in cerebrospinal fluid below normal,http://purl.obolibrary.org/obo/OBCI_0000093,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000094*>,obo:OBCI_0000094,4-hydroxynonenal in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000094,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000095*>,obo:OBCI_0000095,4-heptanone in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000095,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000096*>,obo:OBCI_0000096,D-pipecolic acid in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000096,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000097*>,obo:OBCI_0000097,hexanal in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000097,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000098*>,obo:OBCI_0000098,malonaldehyde in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000098,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000099*>,obo:OBCI_0000099,phenylacetic acid in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000099,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000100*>,obo:OBCI_0000100,phenol in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000100,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000101*>,obo:OBCI_0000101,sepiapterin in cerebrospinal fluid above normal,http://purl.obolibrary.org/obo/OBCI_0000101,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000102*>,obo:OBCI_0000102,porphobilinogen in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000102,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000103*>,obo:OBCI_0000103,porphobilinogen in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000103,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000104*>,obo:OBCI_0000104,glucitol in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000104,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000105*>,obo:OBCI_0000105,allantoin in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000105,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000106*>,obo:OBCI_0000106,allantoin in cerebrospinal fluid above normal,http://purl.obolibrary.org/obo/OBCI_0000106,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000107*>,obo:OBCI_0000107,"6,7-dihydrobiopterin in blood above normal",http://purl.obolibrary.org/obo/OBCI_0000107,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000108*>,obo:OBCI_0000108,L-arginine in blood below normal,http://purl.obolibrary.org/obo/OBCI_0000108,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000109*>,obo:OBCI_0000109,ascorbic acid in cerebrospinal fluid below normal,http://purl.obolibrary.org/obo/OBCI_0000109,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000110*>,obo:OBCI_0000110,lactulose in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000110,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000111*>,obo:OBCI_0000111,lithocholic acid in blood below normal,http://purl.obolibrary.org/obo/OBCI_0000111,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000112*>,obo:OBCI_0000112,mannitol in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000112,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000113*>,obo:OBCI_0000113,creatine in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000113,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000114*>,obo:OBCI_0000114,"1,7-dimethyluric acid in urine above normal",http://purl.obolibrary.org/obo/OBCI_0000114,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000115*>,obo:OBCI_0000115,N(tele)-methylhistamine in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000115,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000116*>,obo:OBCI_0000116,trimethylamine N-oxide in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000116,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000117*>,obo:OBCI_0000117,ursodeoxycholic acid in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000117,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000118*>,obo:OBCI_0000118,2-methoxyestrone in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000118,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000119*>,obo:OBCI_0000119,25-hydroxyvitamin D2 in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000119,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000120*>,obo:OBCI_0000120,thiocyanate in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000120,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000121*>,obo:OBCI_0000121,1-methylguanosine in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000121,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000122*>,obo:OBCI_0000122,p-cresol in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000122,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000123*>,obo:OBCI_0000123,gamma-aminobutyric acid in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000123,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000124*>,obo:OBCI_0000124,theophylline in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000124,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000125*>,obo:OBCI_0000125,3-nitrotyrosine in cerebrospinal fluid above normal,http://purl.obolibrary.org/obo/OBCI_0000125,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000126*>,obo:OBCI_0000126,vasopressin in cerebrospinal fluid above normal,http://purl.obolibrary.org/obo/OBCI_0000126,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000127*>,obo:OBCI_0000127,glycocholic acid in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000127,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000128*>,obo:OBCI_0000128,1-methylinosine in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000128,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000129*>,obo:OBCI_0000129,thyroxine sulfate in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000129,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000130*>,obo:OBCI_0000130,1-methyl-4-imidazoleacetic acid in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000130,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000131*>,obo:OBCI_0000131,theobromine in urine above normal,http://purl.obolibrary.org/obo/OBCI_0000131,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000132*>,obo:OBCI_0000132,methanethiol in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000132,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000133*>,obo:OBCI_0000133,D-serine in urine below normal,http://purl.obolibrary.org/obo/OBCI_0000133,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000134*>,obo:OBCI_0000134,4-guanidinobutanoic acid in blood above normal,http://purl.obolibrary.org/obo/OBCI_0000134,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000135*>,obo:OBCI_0000135,"3,5-diiodo-L-tyrosine in urine above normal",http://purl.obolibrary.org/obo/OBCI_0000135,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000136*>,obo:OBCI_0000136,calcidiol in urine below normal,http://purl.obolibrary.org/obo/OBCI_0000136,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000137*>,obo:OBCI_0000137,heptan-2-one in cerebrospinal fluid above normal,http://purl.obolibrary.org/obo/OBCI_0000137,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_0000138*>,obo:OBCI_0000138,anandamide in cerebrospinal fluid below normal,http://purl.obolibrary.org/obo/OBCI_0000138,,owl:Class,1: <Class *http://purl.obolibrary.org/obo/OBCI_0000024*>
+<Class *http://purl.obolibrary.org/obo/OBCI_3000004*>,obo:OBCI_3000004,neutrophil-to-lymphocyte ratio,http://purl.obolibrary.org/obo/OBCI_3000004,,owl:Class
+<Class *http://purl.obolibrary.org/obo/OBCI_3000005*>,obo:OBCI_3000005,fibrinogen-to-albumin ratio,http://purl.obolibrary.org/obo/OBCI_3000005,,owl:Class

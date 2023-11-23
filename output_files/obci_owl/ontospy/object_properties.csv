@@ -1,0 +1,22 @@
+property,name,label,iri,description,domain,range,rdftype
+<Property *http://purl.obolibrary.org/obo/OBCI_1000001*>,obo:OBCI_1000001,provides_clinical_information_for,http://purl.obolibrary.org/obo/OBCI_1000001,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000002*>,obo:OBCI_1000002,diagnostic_for,http://purl.obolibrary.org/obo/OBCI_1000002,,[],['obo:OBCI_0000037'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000003*>,obo:OBCI_1000003,monitors_status_of,http://purl.obolibrary.org/obo/OBCI_1000003,,[],['obo:OBCI_0000037'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000004*>,obo:OBCI_1000004,indicates_response_to_exposure_to,http://purl.obolibrary.org/obo/OBCI_1000004,,[],['obo:OBCI_0000065'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000005*>,obo:OBCI_1000005,predicts_effect_of_exposure_to,http://purl.obolibrary.org/obo/OBCI_1000005,,[],['obo:OBCI_0000065'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000006*>,obo:OBCI_1000006,prognostic_for,http://purl.obolibrary.org/obo/OBCI_1000006,,[],['obo:OBCI_0000037'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000007*>,obo:OBCI_1000007,assesses_toxicity_of_exposure_to,http://purl.obolibrary.org/obo/OBCI_1000007,,[],['obo:OBCI_0000065'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000008*>,obo:OBCI_1000008,indicates_risk_of_developing,http://purl.obolibrary.org/obo/OBCI_1000008,,[],['obo:OBCI_0000037'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000009*>,obo:OBCI_1000009,indicated_by_above_normal_level_of,http://purl.obolibrary.org/obo/OBCI_1000009,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000010*>,obo:OBCI_1000010,indicates_clinical_effect_of_exposure_to,http://purl.obolibrary.org/obo/OBCI_1000010,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000011*>,obo:OBCI_1000011,has_BEST_classification,http://purl.obolibrary.org/obo/OBCI_1000011,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000012*>,obo:OBCI_1000012,has_CIViC_classification,http://purl.obolibrary.org/obo/OBCI_1000012,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000013*>,obo:OBCI_1000013,monitors_effect_of_exposure_to,http://purl.obolibrary.org/obo/OBCI_1000013,,[],['obo:OBCI_0000065'],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000014*>,obo:OBCI_1000014,indicated_by_difference_in_level_of,http://purl.obolibrary.org/obo/OBCI_1000014,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000015*>,obo:OBCI_1000015,indicated_by_below_normal_level_of,http://purl.obolibrary.org/obo/OBCI_1000015,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000016*>,obo:OBCI_1000016,indicated_by_presence_of,http://purl.obolibrary.org/obo/OBCI_1000016,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000017*>,obo:OBCI_1000017,indicated_by_absence_of,http://purl.obolibrary.org/obo/OBCI_1000017,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000018*>,obo:OBCI_1000018,determined_using_sample_from,http://purl.obolibrary.org/obo/OBCI_1000018,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000019*>,obo:OBCI_1000019,concentration_of,http://purl.obolibrary.org/obo/OBCI_1000019,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000021*>,obo:OBCI_1000021,has_denominator,http://purl.obolibrary.org/obo/OBCI_1000021,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
+<Property *http://purl.obolibrary.org/obo/OBCI_1000022*>,obo:OBCI_1000022,has_numerator,http://purl.obolibrary.org/obo/OBCI_1000022,,[],[],http://www.w3.org/2002/07/owl#ObjectProperty
