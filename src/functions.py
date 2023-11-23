@@ -1,12 +1,8 @@
 # from owlready2 import *
 import csv
+import ontospy
 
-### ontospy functions ### 
-
-
-
-
-### owlready2 functions (DEPRECATED, if using these expect issues) ### 
+### general supplementary functions ### 
 
 def _get_output_type(output_path: str) -> str:
     ''' Get the output file type from the output_path.
@@ -23,7 +19,104 @@ def _get_output_type(output_path: str) -> str:
     else:
         raise ValueError(f'Unsupported file type.')
 
-### owlready2 based functions 
+
+### ontospy functions ### 
+
+def ontospy_explore_classes(output_file: str, classes: list) -> None:
+    ''' Explore the ontology classes and writes the data to an output file. Supports 
+    txt and csv files. 
+
+    Parameters
+    ----------
+    output_file: str 
+        Where to send the output information.
+    classes: list
+        List of the classes to parse from ontospy. 
+    '''
+
+    output_type = _get_output_type(output_file)
+
+    if output_type == 'txt':
+        with open(output_file, 'w') as f:
+            for idx, cls in enumerate(classes):                
+                f.write(f'CLASS #{idx + 1}: {cls}\n\n')
+                f.write(f'\tNAME:           {cls.qname}\n')
+                f.write(f'\tLABEL:          {cls.bestLabel()}\n')
+                f.write(f'\tIRI:            {cls.uri}\n')
+                f.write(f'\tDESCRIPTION:    {cls.bestDescription()}\n')
+                f.write(f'\tRDFTYPE QNAME:  {cls.rdftype_qname}\n')
+                parents = cls.parents()
+                f.write(f'\tPARENTS:\n')
+                for idx2, parent in enumerate(parents):
+                    f.write(f'\t\t{idx2 + 1}:   {parent.qname}\n')
+                f.write(f'\n')
+    elif output_type == 'csv':
+        with open(output_file, 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(['class', 'name', 'iri', 'description', 'rdftype_qname', 'parents'])
+            for cls in classes:
+                parents = [f'{idx + 1}: {parent}' for idx, parent in enumerate(cls.parents())]
+                writer.writerow([cls, cls.qname, cls.bestLabel(), cls.uri, cls.bestDescription(), cls.rdftype_qname] + parents)
+
+def ontospy_explore_properties(output_file: str, properties: list, property_type: str) -> None:
+    ''' Explore the data or object properties and write the data to an output file. Supports 
+    txt and csv files.
+
+    Parameters
+    ----------
+    output_file: str
+        Where to send the output information. 
+    properties: list
+        List of the properties to parse from ontospy.
+    property_type: str
+        Whether the properties being parsed are object, data, or annotation properties or all properties (accepts 'object', 'data', 'annotation', 'all').
+    '''
+
+    output_type = _get_output_type(output_file)
+
+    if output_type == 'txt':
+        with open(output_file, 'w') as f:
+            for idx, property in enumerate(properties):
+                f.write(f'{property_type.upper()} PROPERTY #{idx + 1}: {property}\n\n') 
+                f.write(f'\tNAME:         {property.qname}\n')
+                f.write(f'\tLABEL:        {property.bestLabel()}\n')
+                f.write(f'\tIRI:          {property.uri}\n')
+                f.write(f'\tDESCRIPTION:  {property.bestDescription()}\n')
+                domains = [domain.qname for domain in property.domains]
+                f.write(f'\tDOMAIN:       {domains}\n')
+                ranges = [range.qname for range in property.ranges]
+                f.write(f'\tRANGE:        {ranges}\n')
+                f.write(f'\tRDFTYPE:      {property.rdftype}\n')
+                f.write(f'\n')
+    elif output_type == 'csv':
+        with open(output_file, 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(['property', 'name', 'label', 'iri', 'description', 'domain', 'range', 'rdftype'])
+            for property in properties:
+                domains = [domain.qname for domain in property.domains]
+                ranges = [range.qname for range in property.ranges]
+                writer.writerow([property, property.qname, property.bestLabel(), property.uri, property.bestDescription(), domains, ranges, property.rdftype])
+
+def ontospy_explore_individuals(output_file: str, individuals: list) -> None:
+    ''' Explore the ontology individuals and write the data to an output file. Supports
+    txt and csv files. 
+
+    Parameters
+    ----------
+    output_file: str
+        Where to send the output information.
+    individuals: list
+        List of the individuals to parse from ontospy.
+    '''
+
+    output_type = _get_output_type(output_file)
+
+    if output_type == 'txt':
+        with open(output_file, 'w') as f:
+            for idx, individual in enumerate(individuals):
+                pass
+
+### owlready2 functions (DEPRECATED, if using these expect issues) ### 
 
 def or2_explore_classes(output_file: str, classes: list) -> None:
     ''' Explore the ontology classes and writes the data to an output file. Supports
